@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/css/main.ad9ca771.chunk.css",
-    "main.js": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/main.dd24e582.chunk.js",
-    "main.js.map": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/main.dd24e582.chunk.js.map",
-    "runtime-main.js": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/runtime-main.3d5408fd.js",
-    "runtime-main.js.map": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/runtime-main.3d5408fd.js.map",
-    "static/css/2.d8cb5cde.chunk.css": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.322431c8.chunk.js": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/2.322431c8.chunk.js",
-    "static/js/2.322431c8.chunk.js.map": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/2.322431c8.chunk.js.map",
-    "static/js/3.78fba803.chunk.js": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/3.78fba803.chunk.js",
-    "static/js/3.78fba803.chunk.js.map": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/3.78fba803.chunk.js.map",
-    "index.html": "/TheSoftwareDesignLab/ML_best_practices.github.io/index.html",
-    "static/css/2.d8cb5cde.chunk.css.map": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.ad9ca771.chunk.css.map": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/css/main.ad9ca771.chunk.css.map",
-    "static/js/2.322431c8.chunk.js.LICENSE.txt": "/TheSoftwareDesignLab/ML_best_practices.github.io/static/js/2.322431c8.chunk.js.LICENSE.txt"
+    "main.css": "/ML_best_practices/static/css/main.ad9ca771.chunk.css",
+    "main.js": "/ML_best_practices/static/js/main.dd24e582.chunk.js",
+    "main.js.map": "/ML_best_practices/static/js/main.dd24e582.chunk.js.map",
+    "runtime-main.js": "/ML_best_practices/static/js/runtime-main.56506ddc.js",
+    "runtime-main.js.map": "/ML_best_practices/static/js/runtime-main.56506ddc.js.map",
+    "static/css/2.d8cb5cde.chunk.css": "/ML_best_practices/static/css/2.d8cb5cde.chunk.css",
+    "static/js/2.51be12ef.chunk.js": "/ML_best_practices/static/js/2.51be12ef.chunk.js",
+    "static/js/2.51be12ef.chunk.js.map": "/ML_best_practices/static/js/2.51be12ef.chunk.js.map",
+    "static/js/3.78fba803.chunk.js": "/ML_best_practices/static/js/3.78fba803.chunk.js",
+    "static/js/3.78fba803.chunk.js.map": "/ML_best_practices/static/js/3.78fba803.chunk.js.map",
+    "index.html": "/ML_best_practices/index.html",
+    "static/css/2.d8cb5cde.chunk.css.map": "/ML_best_practices/static/css/2.d8cb5cde.chunk.css.map",
+    "static/css/main.ad9ca771.chunk.css.map": "/ML_best_practices/static/css/main.ad9ca771.chunk.css.map",
+    "static/js/2.51be12ef.chunk.js.LICENSE.txt": "/ML_best_practices/static/js/2.51be12ef.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3d5408fd.js",
+    "static/js/runtime-main.56506ddc.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.322431c8.chunk.js",
+    "static/js/2.51be12ef.chunk.js",
     "static/css/main.ad9ca771.chunk.css",
     "static/js/main.dd24e582.chunk.js"
   ]
