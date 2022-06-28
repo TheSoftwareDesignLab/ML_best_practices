@@ -2,7 +2,7 @@
   "name": "taxonomy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/TheSoftwareDesignLab/ML_best_practices.github.io",
+  "homepage": "https://thesoftwaredesignlab.github.io/ML_best_practices/",
   "dependencies": {
     "@emotion/react": "^11.9.3",
     "@emotion/styled": "^11.9.3",
