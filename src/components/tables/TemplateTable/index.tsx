@@ -1,30 +1,19 @@
 import * as React from 'react';
 import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import {Wrapper} from "./styles";
-import {DATA} from "./data";
 
-export const TemplateTable: React.FC = () => {
+type Props = {
+  columns: GridColDef[];
+  data: any;
+}
 
-  const columns: GridColDef[] = [
-    { field: 'name', headerName: "Name", width: 160 },
-    { field: 'mail', headerName: "Mail", width: 160 },
-    { field: 'phone', headerName: "Phone", width: 160 },
-    {
-      field: 'rating',
-      headerName: "Rating",
-      type: 'number',
-      width: 100,
-    },
-  ];
-
-
+export const TemplateTable: React.FC<Props> = ({columns, data}) => {
   return (
     <Wrapper>
       <DataGrid
-        rows={DATA}
+        autoHeight
+        rows={data}
         columns={columns}
-        pageSize={10}
-        rowsPerPageOptions={[10]}
       />
     </Wrapper>
   )

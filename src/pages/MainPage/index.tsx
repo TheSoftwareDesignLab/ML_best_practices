@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import {TaxPage} from "../TaxPage";
 import {TemplateTable} from "../../components/tables/TemplateTable";
 
+import {TABLE_1_COLUMNS, TABLE_1} from "../../data/table1";
+
 type Props = {
   data: any;
 }
@@ -21,7 +23,7 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <Typography variant="h5">Some chart</Typography>
-          <TemplateTable/>
+          <TemplateTable data={TABLE_1} columns={TABLE_1_COLUMNS}/>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </>
