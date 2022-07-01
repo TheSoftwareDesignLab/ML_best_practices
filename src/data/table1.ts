@@ -45,5 +45,6 @@ export const TABLE_1_COLUMNS = [
   { field: 'Number of experts that validated the practice', headerName: "Number of experts that" +
       " validated the practice", width: 170, type: 'number', },
   { field: 'STE Post(s)', headerName: "STE Post(s)", width: 160 },
-  { field: 'External URL(S) associated to the post', headerName: "External URL(S) associated to the post", width: 160 },
+  { field: 'External URL(S) associated to the post', headerName: "External URL(S) associated to" +
+      " the post", width: 250 },
 ];

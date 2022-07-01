@@ -26,13 +26,15 @@ export const OverrideCss = styled.div`
   .MuiDataGrid-row{
     height: auto !important;
     max-height: 100% !important;
-    min-height: 60px !important;
   }
   
   .MuiDataGrid-cell {
     max-height: 100% !important;
-    min-height: 60px !important;
     white-space: break-spaces !important;
+  }
+  
+  .MuiDataGrid-cellContent {
+    overflow-wrap: anywhere !important;
   }
   
   .MuiDataGrid-virtualScroller {

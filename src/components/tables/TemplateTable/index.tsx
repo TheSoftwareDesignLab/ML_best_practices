@@ -18,6 +18,7 @@ export const TemplateTable: React.FC<Props> = ({columns, data, tableHeight= 400}
             hideFooter
             disableSelectionOnClick
             disableColumnMenu
+            rowHeight={60}
           />
         </Wrapper>
       </OverrideCss>
