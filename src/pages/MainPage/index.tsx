@@ -23,7 +23,7 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <Typography variant="h5">Some chart</Typography>
-          <TemplateTable data={TABLE_1} columns={TABLE_1_COLUMNS}/>
+          <TemplateTable data={TABLE_1} columns={TABLE_1_COLUMNS} tableHeight={500}/>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </>
