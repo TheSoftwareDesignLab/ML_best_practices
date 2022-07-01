@@ -1,25 +1,15 @@
 {
   "files": {
-    "main.css": "/ML_best_practices/static/css/main.ad9ca771.chunk.css",
-    "main.js": "/ML_best_practices/static/js/main.5d4692e3.chunk.js",
-    "main.js.map": "/ML_best_practices/static/js/main.5d4692e3.chunk.js.map",
-    "runtime-main.js": "/ML_best_practices/static/js/runtime-main.56506ddc.js",
-    "runtime-main.js.map": "/ML_best_practices/static/js/runtime-main.56506ddc.js.map",
-    "static/css/2.d8cb5cde.chunk.css": "/ML_best_practices/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.140721d9.chunk.js": "/ML_best_practices/static/js/2.140721d9.chunk.js",
-    "static/js/2.140721d9.chunk.js.map": "/ML_best_practices/static/js/2.140721d9.chunk.js.map",
-    "static/js/3.78fba803.chunk.js": "/ML_best_practices/static/js/3.78fba803.chunk.js",
-    "static/js/3.78fba803.chunk.js.map": "/ML_best_practices/static/js/3.78fba803.chunk.js.map",
+    "main.css": "/ML_best_practices/static/css/main.edc3ad0b.css",
+    "main.js": "/ML_best_practices/static/js/main.c0a4fc87.js",
+    "static/js/787.d939c1e5.chunk.js": "/ML_best_practices/static/js/787.d939c1e5.chunk.js",
     "index.html": "/ML_best_practices/index.html",
-    "static/css/2.d8cb5cde.chunk.css.map": "/ML_best_practices/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.ad9ca771.chunk.css.map": "/ML_best_practices/static/css/main.ad9ca771.chunk.css.map",
-    "static/js/2.140721d9.chunk.js.LICENSE.txt": "/ML_best_practices/static/js/2.140721d9.chunk.js.LICENSE.txt"
+    "main.edc3ad0b.css.map": "/ML_best_practices/static/css/main.edc3ad0b.css.map",
+    "main.c0a4fc87.js.map": "/ML_best_practices/static/js/main.c0a4fc87.js.map",
+    "787.d939c1e5.chunk.js.map": "/ML_best_practices/static/js/787.d939c1e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.56506ddc.js",
-    "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.140721d9.chunk.js",
-    "static/css/main.ad9ca771.chunk.css",
-    "static/js/main.5d4692e3.chunk.js"
+    "static/css/main.edc3ad0b.css",
+    "static/js/main.c0a4fc87.js"
   ]
 }
