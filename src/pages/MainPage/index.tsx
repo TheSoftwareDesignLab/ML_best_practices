@@ -17,12 +17,12 @@ export const MainPage: React.FC<Props> = ({data}) => {
   return (
     <>
       {!openTax ? <>
-          <h1>Online Appendix</h1>
+          <h1>What are the Machine Learning best practices reported by practitioners on Stack Exchange?</h1>
           <Typography variant="h5">Taxonomy</Typography>
           <Button onClick={() => setOpenTax(true)}>Open chart</Button>
           <br/>
           <br/>
-          <Typography variant="h5">Some chart</Typography>
+          <Typography variant="h5">Complementary tables of practices</Typography>
           <TemplateTable data={TABLE_1} columns={TABLE_1_COLUMNS} tableHeight={500}/>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
