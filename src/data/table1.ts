@@ -39,12 +39,12 @@ export const TABLE_1 = [
 
 export const TABLE_1_COLUMNS = [
   { field: 'id', headerName: "ID", width: 160 },
-  { field: 'Phase Category', headerName: "Phase Category", width: 160 },
+  { field: 'Phase Category', headerName: "Phase Category", width: 200 },
   { field: 'Subcategory', headerName: "Subcategory", width: 160 },
-  { field: 'Description', headerName: "Description", width: 250 },
+  { field: 'Description', headerName: "Description", width: 300 },
   { field: 'Number of experts that validated the practice', headerName: "Number of experts that" +
-      " validated the practice", width: 170, type: 'number', },
-  { field: 'STE Post(s)', headerName: "STE Post(s)", width: 160 },
+      " validated the practice", width: 200, type: 'number', },
+  { field: 'STE Post(s)', headerName: "STE Post(s)", width: 250 },
   { field: 'External URL(S) associated to the post', headerName: "External URL(S) associated to" +
-      " the post", width: 250 },
+      " the post", width: 300 },
 ];
