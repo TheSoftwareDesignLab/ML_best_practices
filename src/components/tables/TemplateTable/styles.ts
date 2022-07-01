@@ -34,7 +34,7 @@ export const OverrideCss = styled.div`
   }
   
   .MuiDataGrid-cellContent {
-    overflow-wrap: anywhere !important;
+    overflow-wrap: break-word !important;
   }
   
   .MuiDataGrid-virtualScroller {
