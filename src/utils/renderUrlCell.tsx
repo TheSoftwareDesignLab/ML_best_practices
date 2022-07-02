@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {GridRenderCellParams} from "@mui/x-data-grid";
 
 const Container = styled.div`
   display: flex;
@@ -14,7 +15,7 @@ const Container = styled.div`
   }
 `;
 
-export const renderUrlCell = (params: any) => {
+export const renderUrlCell = (params: GridRenderCellParams) => {
   const SEP = "https";
   const val: string = params.value;
   const urlsArr = val.split(SEP);
