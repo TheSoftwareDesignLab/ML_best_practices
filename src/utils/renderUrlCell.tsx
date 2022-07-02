@@ -23,9 +23,7 @@ export const renderUrlCell = (params: GridRenderCellParams) => {
   const urlsArr = val.split(FIELD_SEP).filter((val) => val.length > 4);
 
   const linkLabels: string = params.getValue(params.id, params.field + LINK_FLAG);
-  console.log(linkLabels)
   const labelsArr = linkLabels ? linkLabels.split(LABEL_SEP) : [];
-  console.log(labelsArr)
 
   return (
     <Container>
