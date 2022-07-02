@@ -9,7 +9,8 @@ export const TABLE_1 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/82012",
     "External URL(S) associated to the post": "https://imbalanced-learn.org/stable/",
-    "link label": "STO/82012",
+    "STE Post(s)-link": "STO/82012",
+    "External URL(S) associated to the post-link": "STO/82012"
   },
   {
     "id": "Mr2",
@@ -18,7 +19,8 @@ export const TABLE_1 = [
     "Description": "It is important to identify the needs/requirements of model retraining.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stackoverflow.com/questions/56859324",
-    "External URL(S) associated to the post": "-"
+    "External URL(S) associated to the post": "-",
+    "STE Post(s)-link": "STO/56859324",
   },
   {
     "id": "Mr3",
@@ -27,7 +29,8 @@ export const TABLE_1 = [
     "Description": "If an ML model is published as a cloud service, specifically, when a classification/prediction task uses ML cloud-based services, it is important to define the use case and the model requirements in order to identify how frequently the service should be invoked.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stackoverflow.com/questions/56859324",
-    "External URL(S) associated to the post": "-"
+    "External URL(S) associated to the post": "-",
+    "STE Post(s)-link": "STO/56859324",
   },
   {
     "id": "Mr4",
@@ -36,12 +39,14 @@ export const TABLE_1 = [
     "Description": "When using probabilistic forecasting in a decision system, it is necessary to decouple the probabilistic model optimization from the probability threshold selection.",
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stats.stackexchange.com/questions/405622",
-    "External URL(S) associated to the post": "https://stats.stackexchange.com/questions/390186/is-decision-threshold-a-hyperparameter-in-logistic-regression\nhttps://stats.stackexchange.com/a/405049/1352\nhttps://www.fharrell.com/post/classification/"
+    "External URL(S) associated to the post": "https://stats.stackexchange.com/questions/390186/is-decision-threshold-a-hyperparameter-in-logistic-regression\nhttps://stats.stackexchange.com/a/405049/1352\nhttps://www.fharrell.com/post/classification/",
+    "STE Post(s)-link": "STO/405622",
+    "External URL(S) associated to the post-link": "STO/1, STO/2, STO/3"
   }
 ];
 
 export const TABLE_1_COLUMNS = [
-  {field: 'id', headerName: "ID", width: 160, sortable: false},
+  {field: 'id', headerName: "ID", width: 70, sortable: false},
   {field: 'Phase Category', headerName: "Phase Category", width: 200, sortable: false},
   {field: 'Subcategory', headerName: "Subcategory", width: 160, sortable: false},
   {field: 'Description', headerName: "Description", width: 300, sortable: false},
@@ -55,15 +60,23 @@ export const TABLE_1_COLUMNS = [
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 250,
+    width: 200,
     renderCell: renderUrlCell,
     sortable: false
   },
   {
     field: 'External URL(S) associated to the post',
     headerName: "External URL(S) associated to the post",
-    width: 300,
+    width: 200,
     renderCell: renderUrlCell,
-    sortable: false
+    sortable: false,
   },
+  {
+    field: 'STE Post(s) link',
+    hide: true,
+  },
+  {
+    field: 'External URL(S) associated to the post-link',
+    hide: true,
+  }
 ];
