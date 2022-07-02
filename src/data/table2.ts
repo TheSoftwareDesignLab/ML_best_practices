@@ -57,7 +57,7 @@ export const TABLE_2 = [
     "id": "Dc7",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
-    "Description": "The object region of interest(ROI) should have a similar aspect ratio in all the positive images.",
+    "Description": "The object region of interest (ROI) should have a similar aspect ratio in all the positive images.",
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stackoverflow.com/questions/40476041",
     "External URL(S) associated to the post": "-"
