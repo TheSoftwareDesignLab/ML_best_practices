@@ -1,3 +1,5 @@
+import {renderUrlCell} from "../utils/renderUrlCell";
+
 export const TABLE_2 = [
   {
     "id": "Dc1",
@@ -65,13 +67,29 @@ export const TABLE_2 = [
 ];
 
 export const TABLE_2_COLUMNS = [
-  { field: 'id', headerName: "ID", width: 160 },
-  { field: 'Phase Category', headerName: "Phase Category", width: 150 },
-  { field: 'Subcategory', headerName: "Subcategory", width: 210 },
-  { field: 'Description', headerName: "Description", width: 300 },
-  { field: 'Number of experts that validated the practice', headerName: "Number of experts that" +
-      " validated the practice", width: 200, type: 'number', },
-  { field: 'STE Post(s)', headerName: "STE Post(s)", width: 250 },
-  { field: 'External URL(S) associated to the post', headerName: "External URL(S) associated to" +
-      " the post", width: 300 },
+  {field: 'id', headerName: "ID", width: 160, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 150, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 210, sortable: false},
+  {field: 'Description', headerName: "Description", width: 300, sortable: false},
+  {
+    field: 'Number of experts that validated the practice',
+    headerName: "Number of experts that validated the practice",
+    width: 200,
+    type: 'number',
+    sortable: false
+  },
+  {
+    field: 'STE Post(s)',
+    headerName: "STE Post(s)",
+    width: 250,
+    sortable: false,
+    renderCell: renderUrlCell
+  },
+  {
+    field: 'External URL(S) associated to the post',
+    headerName: "External URL(S) associated to the post",
+    width: 300,
+    sortable: false,
+    renderCell: renderUrlCell,
+  },
 ];
