@@ -46,7 +46,7 @@ export const TABLE_1 = [
 ];
 
 export const TABLE_1_COLUMNS = [
-  {field: 'id', headerName: "ID", width: 160, sortable: false},
+  {field: 'id', headerName: "ID", width: 70, sortable: false},
   {field: 'Phase Category', headerName: "Phase Category", width: 200, sortable: false},
   {field: 'Subcategory', headerName: "Subcategory", width: 160, sortable: false},
   {field: 'Description', headerName: "Description", width: 300, sortable: false},
@@ -60,14 +60,14 @@ export const TABLE_1_COLUMNS = [
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 250,
+    width: 200,
     renderCell: renderUrlCell,
     sortable: false
   },
   {
     field: 'External URL(S) associated to the post',
     headerName: "External URL(S) associated to the post",
-    width: 300,
+    width: 200,
     renderCell: renderUrlCell,
     sortable: false,
   },
