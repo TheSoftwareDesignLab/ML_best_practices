@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { DataGrid, GridColDef } from '@mui/x-data-grid';
+import {DataGrid, GridColDef, GridRowSpacingParams} from '@mui/x-data-grid';
 import {Wrapper, OverrideCss} from "./styles";
 
 type Props = {
@@ -9,6 +9,7 @@ type Props = {
 }
 
 export const TemplateTable: React.FC<Props> = ({columns, data, tableHeight= 400}) => {
+
   return (
       <OverrideCss>
         <Wrapper height={tableHeight}>
@@ -19,6 +20,8 @@ export const TemplateTable: React.FC<Props> = ({columns, data, tableHeight= 400}
             disableSelectionOnClick
             disableColumnMenu
             rowHeight={60}
+            showColumnRightBorder={false}
+            showCellRightBorder={false}
           />
         </Wrapper>
       </OverrideCss>

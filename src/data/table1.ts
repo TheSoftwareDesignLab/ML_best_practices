@@ -8,7 +8,8 @@ export const TABLE_1 = [
     "Description": "The goal of the model that is going to be trained should be considered when selecting the most appropriate metrics for assessing the model performance.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/82012",
-    "External URL(S) associated to the post": "https://imbalanced-learn.org/stable/"
+    "External URL(S) associated to the post": "https://imbalanced-learn.org/stable/",
+    "link label": "STO/82012",
   },
   {
     "id": "Mr2",
@@ -40,13 +41,29 @@ export const TABLE_1 = [
 ];
 
 export const TABLE_1_COLUMNS = [
-  { field: 'id', headerName: "ID", width: 160 },
-  { field: 'Phase Category', headerName: "Phase Category", width: 200 },
-  { field: 'Subcategory', headerName: "Subcategory", width: 160 },
-  { field: 'Description', headerName: "Description", width: 300 },
-  { field: 'Number of experts that validated the practice', headerName: "Number of experts that" +
-      " validated the practice", width: 200, type: 'number', },
-  { field: 'STE Post(s)', headerName: "STE Post(s)", width: 250, renderCell: renderUrlCell },
-  { field: 'External URL(S) associated to the post', headerName: "External URL(S) associated to" +
-      " the post", width: 300, renderCell: renderUrlCell },
+  {field: 'id', headerName: "ID", width: 160, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 200, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 160, sortable: false},
+  {field: 'Description', headerName: "Description", width: 300, sortable: false},
+  {
+    field: 'Number of experts that validated the practice',
+    headerName: "Number of experts that validated the practice",
+    width: 200,
+    type: 'number',
+    sortable: false
+  },
+  {
+    field: 'STE Post(s)',
+    headerName: "STE Post(s)",
+    width: 250,
+    renderCell: renderUrlCell,
+    sortable: false
+  },
+  {
+    field: 'External URL(S) associated to the post',
+    headerName: "External URL(S) associated to the post",
+    width: 300,
+    renderCell: renderUrlCell,
+    sortable: false
+  },
 ];
