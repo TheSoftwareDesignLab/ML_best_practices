@@ -102,9 +102,13 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <Typography variant="subtitle1" align="left" mb={1}>  <em>Learning Phase</em></Typography>
           <Typography variant="body1" align="justify"> This subcategory is related to the learning phase of a model, meaning the first step of training a model before worrying about the optimization of hyper-parameters and the evaluation phase. In particular, some of the topics covered by the identified practices in this category are: aspects to consider when training a model regardless of its type; aspects to consider when training a neural network; when to use transfer learning; ensemble modeling; and how to improve the performance of a model during the training process. In this subcategory, we present 32 practices. Fifteen (15) practices (<em>mt15</em> - <em>m15</em>) were validated by all the experts and the other 17 were validated  (<em>mt16</em> - <em>mt32</em>) only by three experts.</Typography>
           <br/>
-          <TemplateTable data={TABLE_8} columns={TABLE_8_COLUMNS} tableHeight={500}/>
-          <Typography variant="caption" align="justify">*:We renamed this subcategory in the article to Learning phase in order to facilitate the reading  in the article.<br/>CRV:https://stats.stackexchange.com/q<br/>DTSC:https://datascience.stackexchange.com/q<br/>STO:https://stackoverflow.com/q</Typography>
-
+          <TemplateTable data={TABLE_8} columns={TABLE_8_COLUMNS} tableHeight={800}/>
+          <Typography variant="caption" align="justify">*:We renamed this subcategory in the article to Learning phase in order to facilitate the reading  in the article.<br/>AI:https://ai.stackexchange.com/q<br/>CRV:https://stats.stackexchange.com/q<br/>DTSC:https://datascience.stackexchange.com/q<br/>STO:https://stackoverflow.com/q</Typography>
+          <br/>
+          <br/>
+          <Typography variant="subtitle1" align="left" mb={1}>  <em>Validation Phase</em></Typography>
+          <Typography variant="body1" align="justify"> This subcategory includes topics that relate to (i) hyper-parameter tuning (i.e., finding optimum hyper-parameters), (ii) aspects to consider when evaluating a model, and (iii) avoid over-fitting. Note that the second and third topics were included in this stage (i.e., training) since the training process is affected. In this subcategory, 15 practices were identified,  nine of them (<em>mt33</em> - <em>mt41</em>) were validated by four experts, and the other six (<em>mt42</em> - <em>mt47</em>) were validated by three experts.</Typography>
+          <br/>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </Container>
