@@ -8,6 +8,9 @@ type Props = {
   onBackClick: () => void;
 }
 export const TaxPage: React.FC<Props> = ({data, onBackClick}) => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <Wrapper>

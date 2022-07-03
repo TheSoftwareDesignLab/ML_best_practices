@@ -10,11 +10,9 @@ import {TABLE_2_COLUMNS, TABLE_2} from "../../data/table2";
 import {TABLE_3_COLUMNS, TABLE_3} from "../../data/table3";
 import {TABLE_4_COLUMNS, TABLE_4} from "../../data/table4";
 import {TABLE_5_COLUMNS, TABLE_5} from "../../data/table5";
+import taxImage from "../../assets/taxImage.png";
 
-
-
-
-import {Container} from "./styles";
+import {Container, ImageContainer} from "./styles";
 
 type Props = {
   data: any;
@@ -35,6 +33,12 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <Typography variant="h5">Taxonomy of the ML best practices </Typography>
+          <br/>
+          <br/>
+          <ImageContainer>
+            <img src={taxImage} height={500} alt="Taxonomy image"/>
+          </ImageContainer>
+          <br/>
           <br/>
           <Typography variant="body1" align="justify"> In the following link, you will find a visual representation of the practices' taxonomy in a tree-based chart. This chart has "three" levels, a first level that describe big tasks (e.g., monitor) or important objects  (data). Followed by a second level that is a more detail activity, after this, the three presents codes/labels that were the basis of the practices presented when clicked. </Typography>
           <br/>
