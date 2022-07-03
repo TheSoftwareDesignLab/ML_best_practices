@@ -72,7 +72,7 @@ export const TABLE_1_COLUMNS = [
     sortable: false,
   },
   {
-    field: 'STE Post(s) link',
+    field: 'STE Post(s)-link',
     hide: true,
   },
   {
