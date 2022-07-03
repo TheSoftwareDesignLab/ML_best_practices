@@ -44,6 +44,83 @@ export const TABLE_7 = [
     "External URL(S) in post(s)": "https://arxiv.org/pdf/1508.00330\nhttps://datascience.stackexchange.com/q/13061/28175\nhttps://datascience.stackexchange.com/q/23493/28175\nhttps://datascience.stackexchange.com/q/23287/28175",
     "STE Post(s)-link": "DTSC/17645",
     "External URL(S) in post(s)-link": "Liao z. et al., DTSC/13061, DTSC/23493, DTSC/23287"
+  },
+  {
+    "id": "Fe5",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "When using the principal component analysis (PCA) method, its assumptions should be checked.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://datascience.stackexchange.com/questions/17645",
+    "External URL(S) in post(s)": "https://arxiv.org/pdf/1508.00330\nhttps://datascience.stackexchange.com/q/13061/28175\nhttps://datascience.stackexchange.com/q/23493/28175\nhttps://datascience.stackexchange.com/q/23287/28175",
+    "STE Post(s)-link": "DTSC/17645",
+    "External URL(S) in post(s)-link": "Liao z. et al., DTSC/13061, DTSC/23493, DTSC/23287"
+  },
+  {
+    "id": "Fe6",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "When selecting features, the existing techniques for this purpose should be checked.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://stackoverflow.com/questions/54034392\nhttps://stats.stackexchange.com/questions/261902",
+    "External URL(S) in post(s)": "https://thuijskens.github.io/2017/10/07/feature-selection/\nhttps://stats.stackexchange.com/questions/321765/forward-or-backward-sequential-feature-selection\nhttps://en.wikipedia.org/wiki/Lasso_(statistics)",
+    "STE Post(s)-link": "STO/54034392, CRV/261902",
+    "External URL(S) in post(s)-link": "t.Huijskens Feature selection, CRV/321765,  Lasso wikipedia"
+  },
+  {
+    "id": "Fe7",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "When using Logistic Regression for selecting features, select the significant ones.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://stackoverflow.com/questions/54034392",
+    "External URL(S) in post(s)": "https://thuijskens.github.io/2017/10/07/feature-selection/\nhttps://stats.stackexchange.com/questions/321765/forward-or-backward-sequential-feature-selection\nhttps://en.wikipedia.org/wiki/Lasso_(statistics)",
+    "STE Post(s)-link": "STO/54034392",
+    "External URL(S) in post(s)-link": "t.Huijskens Feature selection, CRV/321765,  Lasso wikipedia"
+  },
+  {
+    "id": "Fe8",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "When using Logistic Regression for selecting features, select the significant ones.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://stackoverflow.com/questions/54034392",
+    "External URL(S) in post(s)": "https://thuijskens.github.io/2017/10/07/feature-selection/\nhttps://stats.stackexchange.com/questions/321765/forward-or-backward-sequential-feature-selection\nhttps://en.wikipedia.org/wiki/Lasso_(statistics)",
+    "STE Post(s)-link": "STO/54034392",
+    "External URL(S) in post(s)-link": "t.Huijskens Feature selection, CRV/321765,  Lasso wikipedia"
+  },
+  {
+    "id": "Fe9",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "Using backward and forward feature selection should be taken into account regardless the classifier that is being used.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://stackoverflow.com/questions/54034392",
+    "External URL(S) in post(s)": "https://thuijskens.github.io/2017/10/07/feature-selection/\nhttps://stats.stackexchange.com/questions/321765/forward-or-backward-sequential-feature-selection\nhttps://en.wikipedia.org/wiki/Lasso_(statistics)",
+    "STE Post(s)-link": "STO/54034392",
+    "External URL(S) in post(s)-link": "t.Huijskens Feature selection, CRV/321765,  Lasso wikipedia"
+  },
+  {
+    "id": "Fe10",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "Using backward and forward feature selection should be taken into account regardless the classifier that is being used.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://stackoverflow.com/questions/54034392",
+    "External URL(S) in post(s)": "https://thuijskens.github.io/2017/10/07/feature-selection/\nhttps://stats.stackexchange.com/questions/321765/forward-or-backward-sequential-feature-selection\nhttps://en.wikipedia.org/wiki/Lasso_(statistics)",
+    "STE Post(s)-link": "STO/54034392",
+    "External URL(S) in post(s)-link": "t.Huijskens Feature selection, CRV/321765,  Lasso wikipedia"
+  },
+  {
+    "id": "Fe11",
+    "Phase Category": "Feature selection",
+    "Subcategory": "Consider existing techniques and their assumptions",
+    "Description": "The usage of Lasso, Ridge, or Glmnet or feature selection in a multiple regression model should be considered.",
+    "Number of experts that validated the practice": 3,
+    "STE Post(s)": "https://stats.stackexchange.com/questions/261671",
+    "External URL(S) in post(s)": "https://stats.stackexchange.com/questions/138860/is-using-correlation-matrix-to-select-predictors-for-regression-correct",
+    "STE Post(s)-link": "CRV/261671",
+    "External URL(S) in post(s)-link": "CRV/138860"
   }
 ];
 
