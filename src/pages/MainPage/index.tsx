@@ -13,7 +13,8 @@ import {TABLE_5_COLUMNS, TABLE_5} from "../../data/table5";
 import {TABLE_6_COLUMNS, TABLE_6} from "../../data/table6";
 import {TABLE_7_COLUMNS, TABLE_7} from "../../data/table7";
 import {TABLE_8_COLUMNS, TABLE_8} from "../../data/table8";
-
+import {TABLE_9_COLUMNS, TABLE_9} from "../../data/table9";
+import {TABLE_10_COLUMNS, TABLE_10} from "../../data/table10";
 
 import taxImage from "../../assets/taxImage.png";
 
@@ -86,14 +87,14 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <Typography variant="body1" align="justify"> This phase, in which a ground truth label is assigned to each sample/record of the datasets <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>, is not always required since some ML approaches do not need it. In particular, ground truth is needed when working with projects that use supervised or semi-supervised learning but is not needed for projects that use unsupervised learning. For instance, if a snippet of code is going to be classified as vulnerable or not, then for each snippet of code, a label indicating if it is vulnerable or not should be assigned. Two practices were identified in this stage. The first practice in this group was validated by all the experts (<em>dl1</em>), while the second practice (<em>dl2</em>) was validated by three of them. </Typography>
           <br/>
           <TemplateTable data={TABLE_6} columns={TABLE_6_COLUMNS} tableHeight={300}/>
-          <Typography variant="caption" align="justify">DTSC:https://datascience.stackexchange.com/q<br/>STO:https://stackoverflow.com/q</Typography>
+          <Typography variant="caption" align="justify">DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
           <br/>
           <br/>
           <Typography variant="h6" align="left">  Feature engineering (fe)</Typography>
           <Typography variant="body1" align="justify"> This stage of an ML pipeline involves all the activities that are performed to extract and select informative features (i.e., characteristics/attributes that are useful or relevant) for machine learning models <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. In this stage, 11 validated practices were identified, four of them (<em>fe1</em> - <em>fe4</em>) were validated by the four experts  and the remaining six (<em>fe5</em> - <em>fe11</em>) were validated by three experts.</Typography>
           <br/>
           <TemplateTable data={TABLE_7} columns={TABLE_7_COLUMNS} tableHeight={600}/>
-          <Typography variant="caption" align="justify">CRV:https://stats.stackexchange.com/q<br/>DTSC:https://datascience.stackexchange.com/q<br/>STO:https://stackoverflow.com/q</Typography>
+          <Typography variant="caption" align="justify">CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
           <br/>
           <br/>
           <Typography variant="h6" align="left">  Model training (mt)</Typography>
@@ -103,12 +104,20 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <Typography variant="body1" align="justify"> This subcategory is related to the learning phase of a model, meaning the first step of training a model before worrying about the optimization of hyper-parameters and the evaluation phase. In particular, some of the topics covered by the identified practices in this category are: aspects to consider when training a model regardless of its type; aspects to consider when training a neural network; when to use transfer learning; ensemble modeling; and how to improve the performance of a model during the training process. In this subcategory, we present 32 practices. Fifteen (15) practices (<em>mt15</em> - <em>m15</em>) were validated by all the experts and the other 17 were validated  (<em>mt16</em> - <em>mt32</em>) only by three experts.</Typography>
           <br/>
           <TemplateTable data={TABLE_8} columns={TABLE_8_COLUMNS} tableHeight={800}/>
-          <Typography variant="caption" align="justify">*:We renamed this subcategory in the article to Learning phase in order to facilitate the reading  in the article.<br/>AI:https://ai.stackexchange.com/q<br/>CRV:https://stats.stackexchange.com/q<br/>DTSC:https://datascience.stackexchange.com/q<br/>STO:https://stackoverflow.com/q</Typography>
+          <Typography variant="caption" align="justify">*: We renamed this subcategory in the article to Learning phase in order to facilitate the reading  in the article.<br/>AI: https://ai.stackexchange.com/q<br/>CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
           <br/>
           <br/>
           <Typography variant="subtitle1" align="left" mb={1}>  <em>Validation Phase</em></Typography>
           <Typography variant="body1" align="justify"> This subcategory includes topics that relate to (i) hyper-parameter tuning (i.e., finding optimum hyper-parameters), (ii) aspects to consider when evaluating a model, and (iii) avoid over-fitting. Note that the second and third topics were included in this stage (i.e., training) since the training process is affected. In this subcategory, 15 practices were identified,  nine of them (<em>mt33</em> - <em>mt41</em>) were validated by four experts, and the other six (<em>mt42</em> - <em>mt47</em>) were validated by three experts.</Typography>
           <br/>
+          <TemplateTable data={TABLE_9} columns={TABLE_9_COLUMNS} tableHeight={600}/>
+          <Typography variant="caption" align="justify">CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
+          <br/>
+          <br/>
+          <Typography variant="h6" align="left">  Model evaluation (me)</Typography>
+          <Typography variant="body1" align="justify"> In the model evaluation stage, trained and tuned models are tested. For instance, engineers evaluate the output models on tested or safeguard datasets by using pre-defined metrics. In particular cases, for critical domains (e.g., safety-critical applica- tions from the medical domain), this stage involves human evaluation <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. For this stage, we have a few practices, eight, that are related to model evaluations. However, some other practices that involve or are associated with model evaluation/testing were mentioned before as part of other stages. All the experts validated two practices (<em>me1</em> - <em>me2</em>), and six (<em>me3</em> - <em>me8</em>) were validated by three experts. </Typography>
+          <TemplateTable data={TABLE_10} columns={TABLE_10_COLUMNS} tableHeight={400}/> 
+          <Typography variant="caption" align="justify">CS: https://cs.stackexchange.com/q<br/>CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </Container>
