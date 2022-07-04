@@ -10,7 +10,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/191348",
     "External URL(S) in post(s)": "https://stats.stackexchange.com/questions/187205/same-estimate-of-least-squares-regression-equation/187210#187210",
     "STE Post(s)-link": "CRV/191348",
-    "External URL(S) in post(s)-link": "CRV/187210"
+    "External URL(S) in post(s)-link": "CRV/187210",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt2",
@@ -21,7 +22,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/89696",
     "External URL(S) in post(s)": "https://github.com/dmlc/xgboost/issues/357",
     "STE Post(s)-link": "DTSC/89696",
-    "External URL(S) in post(s)-link": "Xgboost Github"
+    "External URL(S) in post(s)-link": "Xgboost Github",
+    "References to practice terminology": "https://www.taylorfrancis.com/books/mono/10.1201/9781315139470/classification-regression-trees-leo-breiman-jerome-friedman-richard-olshen-charles-stone\nhttps://www.jstatsoft.org/v33/i01/\nhttps://link.springer.com/article/10.1007/s10994-006-6226-1\nhttps://link.springer.com/chapter/10.1007/BFb0026666",
+    "References to practice terminology-link": "Decision Trees, Gradient Boosting Trees, Extratrees, Naive Bayes",
   },
   {
     "id": "Mt3",
@@ -32,7 +35,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/175714",
     "External URL(S) in post(s)": "https://www.otexts.org/fpp/2/5",
     "STE Post(s)-link": "CRV/175714",
-    "External URL(S) in post(s)-link": "OTexts Evaluating forecasting"
+    "External URL(S) in post(s)-link": "OTexts Evaluating forecasting",
+    "References to practice terminology": "https://link.springer.com/article/10.1007/s10994-008-5093-3",
+    "References to practice terminology-link": "Sliding windows",
   },
   {
     "id": "Mt4",
@@ -43,6 +48,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/482486",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/482486",
+    "References to practice terminology": "https://www.oreilly.com/library/view/feature-engineering-for/9781491953235/",
+    "References to practice terminology-link": "Data leakage (Zheng & Casari)",
   },
   {
     "id": "Mt5",
@@ -54,6 +61,7 @@ export const TABLE_8 = [
     "External URL(S) in post(s)": "https://arxiv.org/abs/1707.02968\nhttps://arxiv.org/abs/1606.04080",
     "STE Post(s)-link": "CRV/297875",
     "External URL(S) in post(s)-link": "Sun C. et al. (2017), Vinyals O. et al. (2017)",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt6",
@@ -65,6 +73,9 @@ export const TABLE_8 = [
     "External URL(S) in post(s)": "http://arxiv.org/pdf/1411.6447",
     "STE Post(s)-link": "STO/43856384, STO/58644114, STO/32966970",
     "External URL(S) in post(s)-link": "Xiao T. et al. (2014)",
+    "References to practice terminology": "https://www.jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf?utm_content=buffer79b43&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer," +
+    "https://arxiv.org/abs/1207.0580\nhttps://arxiv.org/abs/1312.6197\nhttps://ieeexplore.ieee.org/abstract/document/9468799",
+    "References to practice terminology-link": "Dropout & Over-fitting (Srivastava et al.), Dropout & Over-fitting (Hinton et al.), Dropout & Over-fitting (Warde-Farley et al.), Dropout & Over-fitting (Sanjar et al.)",
   },
   {
     "id": "Mt7",
@@ -76,6 +87,7 @@ export const TABLE_8 = [
     "External URL(S) in post(s)": "https://rads.stackoverflow.com/amzn/click/com/0262035618\nhttps://www.deeplearning.ai/ai-notes/initialization/\nhttps://papers.nips.cc/paper/2018/file/d81f9c1be2e08964bf9f24b15f0e4900-Paper.pdf\nhttps://mlfromscratch.com/activation-functions-explained/",
     "STE Post(s)-link": "STO/65704588",
     "External URL(S) in post(s)-link": "Goodfellow I. et al.(2017), Deep Learning AI Initializing, Hanin B. and Rolnick D. (2018), Hansen C. Activation functions",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt8",
@@ -87,6 +99,8 @@ export const TABLE_8 = [
     "External URL(S) in post(s)": "https://rads.stackoverflow.com/amzn/click/com/0262035618\nhttps://www.deeplearning.ai/ai-notes/initialization/\nhttps://papers.nips.cc/paper/2018/file/d81f9c1be2e08964bf9f24b15f0e4900-Paper.pdf\nhttps://mlfromscratch.com/activation-functions-explained/",
     "STE Post(s)-link": "STO/65704588",
     "External URL(S) in post(s)-link": "Goodfellow I. et al.(2017), Deep Learning AI Initializing, Hanin B. and Rolnick D. (2018), Hansen C. Activation functions",
+    "References to practice terminology": "http://proceedings.mlr.press/v9/glorot10a",
+    "References to practice terminology-link": "Xavier initialization (Glorot & Bengio)",
   },
   {
     "id": "Mt9",
@@ -96,7 +110,9 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stats.stackexchange.com/questions/425014",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/425014"
+    "STE Post(s)-link": "CRV/425014",
+    "References to practice terminology": "https://page.mi.fu-berlin.de/prechelt/Biblio/stop_tricks1997.pdf",
+    "References to practice terminology-link": "Early Stopping",
   },
   {
     "id": "Mt10",
@@ -107,7 +123,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/450246",
     "External URL(S) in post(s)": "https://arxiv.org/abs/1505.04597",
     "STE Post(s)-link": "CRV/450246",
-    "External URL(S) in post(s)-link": "Ronneberger O. et al. (2015)"
+    "External URL(S) in post(s)-link": "Ronneberger O. et al. (2015)",
+    "References to practice terminology": "https://web-archive.southampton.ac.uk/cogprints.org/5869/1/cnn_tutorial.pdf\n https://openreview.net/forum?id=YicbFdNTTy\nhttps://arxiv.org/abs/2105.01601v4",
+    "References to practice terminology-link": "Convolutional Layer, Vision image Transformer, MLP mixers",
   },
   {
     "id": "Mt11",
@@ -117,7 +135,8 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/37163",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DTSC/37163"
+    "STE Post(s)-link": "DTSC/37163",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt12",
@@ -128,7 +147,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stackoverflow.com/questions/32966970",
     "External URL(S) in post(s)": "http://arxiv.org/pdf/1411.6447",
     "STE Post(s)-link": "STO/32966970",
-    "External URL(S) in post(s)-link": "Xiao T. et al. (2014)"
+    "External URL(S) in post(s)-link": "Xiao T. et al. (2014)",
+    "References to practice terminology": "https://ftp.cs.wisc.edu/machine-learning/shavlik-group/torrey.handbook09.pdf\nhttps://arxiv.org/abs/1810.04805",
+    "References to practice terminology-link": "Transfer learning, BERT",
   },
   {
     "id": "Mt13",
@@ -139,6 +160,7 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stackoverflow.com/questions/43856384",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/43856384",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt14",
@@ -149,7 +171,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/13901",
     "External URL(S) in post(s)": "https://www.cs.columbia.edu/~vondrick/largetrain.pdf",
     "STE Post(s)-link": "DTSC/13901",
-    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)"
+    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)",
+    "References to practice terminology": "https://link.springer.com/article/10.1007/bf00117832",
+    "References to practice terminology-link": "Ensemble method (Bagging)",
   },
   {
     "id": "Mt15",
@@ -160,7 +184,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/467757\nhttps://stackoverflow.com/questions/28006451\nhttps://datascience.stackexchange.com/questions/12765",
     "External URL(S) in post(s)": "https://en.wikipedia.org/wiki/Online_machine_learning\nhttps://www.jmlr.org/papers/volume6/bordes05a/bordes05a.pdf\nhttps://www.jmlr.org/papers/volume7/laskov06a/laskov06a.pdf\nhttps://ieeexplore.ieee.org/abstract/document/1318049\nhttps://en.wikipedia.org/wiki/Instance-based_learning\nhttps://en.wikipedia.org/wiki/K-d_tree\nhttps://docs.scipy.org/doc/scipy-0.14.0/reference/generated/scipy.spatial.KDTree.html\nhttps://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDClassifier.html#sklearn.linear_model.SGDClassifier",
     "STE Post(s)-link": "CRV/467757, STO/28006451, DTSC/12765",
-    "External URL(S) in post(s)-link": "Online ML Wikipedia, Border A. et al. (2005), Laskov P. et al. (2006), Tax D.M.J et al. (2003), Instance-based learning Wikipedia, K-D tree Wikipedia, K-D tree SciPy, SGD Classifier Sklearn"
+    "External URL(S) in post(s)-link": "Online ML Wikipedia, Border A. et al. (2005), Laskov P. et al. (2006), Tax D.M.J et al. (2003), Instance-based learning Wikipedia, K-D tree Wikipedia, K-D tree SciPy, SGD Classifier Sklearn",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt16",
@@ -170,7 +195,9 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/1094",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DTSC/1094"
+    "STE Post(s)-link": "DTSC/1094",
+    "References to practice terminology": "https://proceedings.neurips.cc/paper/2017/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html\nhttps://link.springer.com/article/10.1023/a:1010933404324",
+    "References to practice terminology-link": "Gradient Boosting Decision Tree, Random Forest ",
   },
   {
     "id": "Mt17",
@@ -181,7 +208,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stackoverflow.com/questions/32966970",
     "External URL(S) in post(s)": "https://arxiv.org/pdf/1411.6447.pdf",
     "STE Post(s)-link": "STO/32966970",
-    "External URL(S) in post(s)-link": "Xiao T. et al. (2014)"
+    "External URL(S) in post(s)-link": "Xiao T. et al. (2014)",
+    "References to practice terminology": "https://link.springer.com/chapter/10.1007/978-3-319-21852-6_3\nhttps://dl.acm.org/doi/abs/10.1145/3446776",
+    "References to practice terminology-link": "Num. Parameters vs. data (1), Num. Parameters vs. data (2)",
   },
   {
     "id": "Mt18",
@@ -191,7 +220,8 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stackoverflow.com/questions/58644114",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "STO/58644114"
+    "STE Post(s)-link": "STO/58644114",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt19",
@@ -202,17 +232,20 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stackoverflow.com/questions/65704588",
     "External URL(S) in post(s)": "https://rads.stackoverflow.com/amzn/click/com/0262035618\nhttps://www.deeplearning.ai/ai-notes/initialization/\nhttps://papers.nips.cc/paper/2018/file/d81f9c1be2e08964bf9f24b15f0e4900-Paper.pdf\nhttps://mlfromscratch.com/activation-functions-explained/",
     "STE Post(s)-link": "STO/65704588",
-    "External URL(S) in post(s)-link": "Goodfellow I. et al.(2017), Deep Learning AI Initializing, Hanin B. and Rolnick D. (2018), Hansen C. Activation functions"
+    "External URL(S) in post(s)-link": "Goodfellow I. et al.(2017), Deep Learning AI Initializing, Hanin B. and Rolnick D. (2018), Hansen C. Activation functions",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt20",
     "Phase Category":"Training*",
     "Subcategory": "Convergence",
-    "Description": "If a neural netwok does not converge, then the learning rate should be reduced by a half or one third.",
+    "Description": "If a neural netwok does not converge, then the learning rate (LR) should be reduced by a half or one third.",
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stackoverflow.com/questions/43856384",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/43856384",
+    "References to practice terminology": "https://ieeexplore.ieee.org/abstract/document/893417\nhttps://dl.acm.org/doi/abs/10.1145/3460268.3460270?casa_token=17Bw9pZZEp0AAAAA:PEtLY4Tvkwt5dDZhLpaf7Vsl5yyCv1zFjp5eyf-RJTmFk9CzrUHQxpm4OTF5dPQQLibGc7vC_ec",
+    "References to practice terminology-link": "e.g. Reduce LR by half (Jin et al), e.g. Reduce LR by half (Ding)",
   },
   {
     "id": "Mt21",
@@ -223,6 +256,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stackoverflow.com/questions/43856384",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/43856384",
+    "References to practice terminology": "https://arxiv.org/abs/1804.07612",
+    "References to practice terminology-link": "Mini-batches",
   },
   {
     "id": "Mt22",
@@ -233,6 +268,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stackoverflow.com/questions/45769058",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/45769058",
+    "References to practice terminology": "https://www.worldscientific.com/doi/10.1142/S0129065794000372",
+    "References to practice terminology-link": "Multi-Layer Perceptrons",
   },
   {
     "id": "Mt23",
@@ -243,7 +280,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://ai.stackexchange.com/questions/16756",
     "External URL(S) in post(s)": "https://en.wikipedia.org/wiki/Generative_adversarial_network",
     "STE Post(s)-link": "AI/16756",
-    "External URL(S) in post(s)-link": "Generative adversarial Network Wikipedia"
+    "External URL(S) in post(s)-link": "Generative adversarial Network Wikipedia\nhttps://www.jmlr.org/papers/volume7/shivaswamy06a/shivaswamy06a.pdf",
+    "References to practice terminology": "https://www.jmlr.org/papers/volume3/lanckriet02a/lanckriet02a.pdf",
+    "References to practice terminology-link": "Robustness (Lanckriet et al.), Robustness (Shivaswamy et al.)",
   },
   {
     "id": "Mt24",
@@ -254,7 +293,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/175714",
     "External URL(S) in post(s)": "https://www.otexts.org/fpp/2/5",
     "STE Post(s)-link": "CRV/175714",
-    "External URL(S) in post(s)-link": "OTexts Evaluating forecasting"
+    "External URL(S) in post(s)-link": "OTexts Evaluating forecasting",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt25",
@@ -265,7 +305,8 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/175714",
     "External URL(S) in post(s)": "https://www.otexts.org/fpp/2/5",
     "STE Post(s)-link": "CRV/175714",
-    "External URL(S) in post(s)-link": "OTexts Evaluating forecasting"
+    "External URL(S) in post(s)-link": "OTexts Evaluating forecasting",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt26",
@@ -275,7 +316,8 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stats.stackexchange.com/questions/308376",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/308376"
+    "STE Post(s)-link": "CRV/308376",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt27",
@@ -285,7 +327,9 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stats.stackexchange.com/questions/308376",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/308376"
+    "STE Post(s)-link": "CRV/308376",
+    "References to practice terminology": "https://link.springer.com/chapter/10.1007/978-3-642-41136-6_5",
+    "References to practice terminology-link": "Example in which this doesn't apply (Adaptive Boosting)",
   },
   {
     "id": "Mt28",
@@ -295,7 +339,8 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stackoverflow.com/questions/18853557",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "STO/18853557"
+    "STE Post(s)-link": "STO/18853557",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt29",
@@ -306,7 +351,10 @@ export const TABLE_8 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/64990",
     "External URL(S) in post(s)": "https://www.geeksforgeeks.org/clustering-in-machine-learning/",
     "STE Post(s)-link": "DSC/64990",
-    "External URL(S) in post(s)-link": "Clustering GeeksForGeeks"
+    "External URL(S) in post(s)-link": "Clustering GeeksForGeeks",
+    "References to practice terminology": "https://www.sciencedirect.com/science/article/abs/pii/0031320380900424\nhttps://direct.mit.edu/neco/article-abstract/13/11/2573/6469/Resampling-Method-for-Unsupervised-Estimation-of"+
+    "https://www.tandfonline.com/doi/abs/10.1080/01621459.1983.10478008\nhttps://www.worldscientific.com/doi/abs/10.1142/9789812799623_0002",
+    "References to practice terminology-link": "Cluster stability (1) (Smith & Dubes), Cluster stability (2) (Levine & Domany), Cluster stability (3) (Fowlkes & Mallows), Cluster stability (4) (Ben-Hur et al.)",
   },
   {
     "id": "Mt30",
@@ -317,7 +365,9 @@ export const TABLE_8 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/297871",
     "External URL(S) in post(s)": "https://link.springer.com/article/10.1007/s10462-015-9444-8\nhttps://dl.acm.org/doi/10.5555/1315451.1315460\nhttps://dl.acm.org/doi/10.1145/2523813",
     "STE Post(s)-link": "CRV/297871",
-    "External URL(S) in post(s)-link": "Faria E. et al. (2015), Aggarwal C. et al. (2003), Gama J. et al. (2014)"
+    "External URL(S) in post(s)-link": "Faria E. et al. (2015), Aggarwal C. et al. (2003), Gama J. et al. (2014)",
+    "References to practice terminology": "https://link.springer.com/chapter/10.1007/978-3-319-26989-4_4",
+    "References to practice terminology-link": "Concept drifft (Žliobaite et al.)",
   },
   {
     "id": "Mt31",
@@ -327,7 +377,8 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/12765",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DSC/12765"
+    "STE Post(s)-link": "DSC/12765",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt32",
@@ -337,28 +388,36 @@ export const TABLE_8 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/12765",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DSC/12765"
+    "STE Post(s)-link": "DSC/12765",
+    "References to practice terminology": "-",
   }
 ];
 
 export const TABLE_8_COLUMNS = [
-  {field: 'id', headerName: "ID", width: 70, sortable: false},
-  {field: 'Phase Category', headerName: "Phase Category", width: 200, sortable: false},
-  {field: 'Subcategory', headerName: "Subcategory", width: 160, sortable: false},
+  {field: 'id', headerName: "ID", width: 80, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 100, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 170, sortable: false},
   {field: 'Description', headerName: "Description", width: 300, sortable: false},
+  {
+    field: 'References to practice terminology',
+    headerName: "References to practice terminology",
+    width: 290,
+    sortable: false,
+    renderCell: renderUrlCell,
+  },
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 170,
-    renderCell: renderUrlCell,
-    sortable: false
+    width: 190,
+    sortable: false,
+    renderCell: renderUrlCell
   },
   {
     field: 'External URL(S) in post(s)',
     headerName: "External URL(S) in post(s)",
-    width: 230,
-    renderCell: renderUrlCell,
+    width: 250,
     sortable: false,
+    renderCell: renderUrlCell,
   },
   {
     field: 'STE Post(s)-link',
@@ -366,6 +425,10 @@ export const TABLE_8_COLUMNS = [
   },
   {
     field: 'External URL(S) in post(s)-link',
+    hide: true,
+  },
+  {
+    field: 'References to practice terminology-link',
     hide: true,
   },
   {
