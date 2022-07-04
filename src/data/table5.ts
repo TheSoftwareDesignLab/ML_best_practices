@@ -10,6 +10,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/503677",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/503677",
+    "References to practice terminology": "https://doi.org/10. 1016/j.artmed.2010.05.002\nhttps://www.jmlr.org/papers/volume18/17-073/17-073.pdf\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/\nhttps://pubmed.ncbi.nlm.nih.gov/18652544/",
+    "References to practice terminology-link": "Imputation techniques (Jerez), Imputation techniques (Bertsimas), Bias imputation (Kang), Bias imputation (Graham)",
   },
   {
     "id": "Dcl13",
@@ -20,7 +22,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/51064462\nhttps://datascience.stackexchange.com/questions/82012",
     "External URL(S) in post(s)": "https://stackoverflow.com/questions/48805063/h2o-balance-classes-cross-validation/48810493#48810493\nhttps://imbalanced-learn.org/stable/",
     "STE Post(s)-link": "STO/51064462, DTSC/82012",
-    "External URL(S) in post(s)-link": "STO/48810493, Imbalanced learn-Sklearn"
+    "External URL(S) in post(s)-link": "STO/48810493, Imbalanced learn-Sklearn",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl14",
@@ -31,7 +34,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/51064462",
     "External URL(S) in post(s)": "https://stackoverflow.com/questions/48805063/h2o-balance-classes-cross-validation/48810493#48810493",
     "STE Post(s)-link": "STO/48810493",
-    "External URL(S) in post(s)-link": "STO/48810493"
+    "External URL(S) in post(s)-link": "STO/48810493",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl15",
@@ -42,7 +46,9 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/46178141",
     "External URL(S) in post(s)": "https://en.wikipedia.org/wiki/Oversampling_and_undersampling_in_data_analysis",
     "STE Post(s)-link": "STO/46178141",
-    "External URL(S) in post(s)-link": "Over/under sample Wikipedia"
+    "External URL(S) in post(s)-link": "Over/under sample Wikipedia",
+    "References to practice terminology": "https://link.springer.com/book/10.1007/978-3-319-98074-4\nhttps://link.springer.com/article/10.1023/A:1007601015854\nhttps://www.wiley.com/en-us/Imbalanced+Learning%3A+Foundations%2C+Algorithms%2C+and+Applications-p-9781118074626",
+    "References to practice terminology-link": "Learning from imbalanced datasets (IMD), Metrics in IMD (Provost & Fawcett), Metrics in IMD and balance (He & Ma)",
   },
   {
     "id": "Dcl16",
@@ -53,7 +59,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://cs.stackexchange.com/questions/60391\nhttps://stats.stackexchange.com/questions/77350\nhttps://datascience.stackexchange.com/questions/75178\nhttps://stats.stackexchange.com/questions/482486\nhttps://cs.stackexchange.com/questions/115441",
     "External URL(S) in post(s)": "https://cs231n.github.io/neural-networks-2/\nhttps://openai.com/blog/better-language-models/",
     "STE Post(s)-link": "CS/60391, CRV/77350, DTSC/75178, CRV/482486, CS/115441",
-    "External URL(S) in post(s)-link": "CS231-CNN, Language models-openAI"
+    "External URL(S) in post(s)-link": "CS231-CNN, Language models-openAI",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl17",
@@ -64,7 +71,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/5652357\nhttps://datascience.stackexchange.com/questions/37734\nhttps://stats.stackexchange.com/questions/189652\nhttps://datascience.stackexchange.com/questions/25832\nhttps://datascience.stackexchange.com/questions/65215",
     "External URL(S) in post(s)":"http://oreilly.com/catalog/9780596510497/\nhttp://en.wikipedia.org/wiki/Cross_tabulation\nhttps://stats.stackexchange.com/questions/189652/is-it-a-good-practice-to-always-scale-normalize-data-for-machine-learning\nhttps://arxiv.org/pdf/1508.00330.pdf\nhttps://datascience.stackexchange.com/questions/13061/when-to-use-he-or-glorot-normal-initialization-over-uniform-init-and-what-are\nhttps://datascience.stackexchange.com/questions/23493/why-relu-is-better-than-the-other-activation-functions\nhttps://datascience.stackexchange.com/questions/23287/why-large-weights-are-prohibited-in-neural-networks",
     "STE Post(s)-link": "STO/5652357, DTSC/37734, CRV/189652, DTSC/25832, DTSC/65215",
-    "External URL(S) in post(s)-link": "Book-Watters P. and Boslaugh S, Cross tabulation Wikipedia, CRV/189652, Liao z. et al (2015), DTSC/13061, DTSC/23493, DTSC/23287"
+    "External URL(S) in post(s)-link": "Book-Watters P. and Boslaugh S, Cross tabulation Wikipedia, CRV/189652, Liao z. et al (2015), DTSC/13061, DTSC/23493, DTSC/23287",
+    "References to practice terminology": "-",
   }, 
   {
     "id": "Dcl18",
@@ -75,6 +83,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/189652",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/189652",
+    "References to practice terminology": "https://link.springer.com/article/10.1007/BF00994018\nhttps://ieeexplore.ieee.org/document/708428",
+    "References to practice terminology-link": "SVM (Cortes & Vapnik), SVM (Hearst et al.)",
   },
   {
     "id": "Dcl19",
@@ -85,6 +95,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/46355357",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/46355357",
+    "References to practice terminology": "https://dl.acm.org/doi/abs/10.1145/2934732.2934737",
+    "References to practice terminology-link": "Laplace smoothing (Valcarce et al.)",
   },
   {
     "id": "Dcl20",
@@ -95,6 +107,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/18853557",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/18853557",
+    "References to practice terminology": "https://stats.oarc.ucla.edu/wp-content/uploads/2016/02/p046.pdf",
+    "References to practice terminology-link": "One-hot encoding (Garavaglia et al.)",
   },
   {
     "id": "Dcl21",
@@ -105,7 +119,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/311494",
     "External URL(S) in post(s)": "https://ianlondon.github.io/blog/encoding-cyclical-features-24hour-time/\nhttps://stats.stackexchange.com/questions/126230/optimal-construction-of-day-feature-in-neural-networks\nhttps://datascience.stackexchange.com/questions/5990/what-is-a-good-way-to-transform-cyclic-ordinal-attributes\nhttps://medium.com/towards-data-science/top-6-errors-novice-machine-learning-engineers-make-e82273d394db",
     "STE Post(s)-link": "CRV/311494",
-    "External URL(S) in post(s)-link": "Ian London's Blog, CRV/126230, DTSC/5990, Dossman C.-Medium"
+    "External URL(S) in post(s)-link": "Ian London's Blog, CRV/126230, DTSC/5990, Dossman C.-Medium",
+    "References to practice terminology": "-",
   }, 
   {
     "id": "Dcl22",
@@ -116,7 +131,9 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/32966970",
     "External URL(S) in post(s)": "http://arxiv.org/pdf/1411.6447",
     "STE Post(s)-link": "STO/32966970",
-    "External URL(S) in post(s)-link": "Xiao T. et al. (2014)"
+    "External URL(S) in post(s)-link": "Xiao T. et al. (2014)",
+    "References to practice terminology": "https://journalofbigdata.springeropen.com/articles/10.1186/s40537-019-0197-0\nhttps://arxiv.org/abs/1712.04621\nhttps://ieeexplore.ieee.org/abstract/document/7533048\nhttps://www.frontiersin.org/article/10.3389/fncom.2019.00083\nhttps://www.sciencedirect.com/science/article/pii/ S1574954120300340\nhttps://www.isca-speech.org/archive_v0/interspeech_2015/papers/i15_3586.pdf\nhttps://arxiv.org/abs/1808.03883\nhttps://computationalsocialnetworks.springeropen.com/articles/10.1186/s40649-020-00080-x\nhttps://dl.acm.org/doi/abs/10.1145/3366424.3383552?casa_token=c-BvfGx_DiUAAAAA:UohyaOTr1wIs1_2TtnSE1FnQ8oXS_hkQE1s1lKl2FHCZeteWawAkwcxayhN5bAMUrmbTBTnB0LQ\nhttps://www.mdpi.com/2076-3417/10/17/5978",
+    "References to practice terminology-link": "Image augmentation (Shorten & Khoshgoftaar), Image augmentation (Perez & Wang), Image augmentation (Fawzi et al.), Image augmentation (Nalepa et al.), Audio augmentation (Nanni et al.), Audio augmentation (Ko et al.), Audio augmentation (Wei et al.), Text augmentation (Duong and Nguyenhi), Text augmentation (Qiu S. et al.), Text augmentation (Atliha & Šešok)",
   },
   {
     "id": "Dcl23",
@@ -127,7 +144,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://opendata.stackexchange.com/questions/7225",
     "External URL(S) in post(s)": "https://stackoverflow.com/q/1972299/2327328\nhttps://stackoverflow.com/a/28029854/2327328\nhttps://stackoverflow.com/a/12243875/2327328",
     "STE Post(s)-link": "OD/7225",
-    "External URL(S) in post(s)-link": "STO/2327328, STO/28029854, STO/12243875"
+    "External URL(S) in post(s)-link": "STO/2327328, STO/28029854, STO/12243875",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl24",
@@ -138,6 +156,7 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/40476041",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/40476041",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl25",
@@ -148,7 +167,9 @@ export const TABLE_5 = [
     "STE Post(s)": " https://stats.stackexchange.com/questions/207533",
     "External URL(S) in post(s)": "https://www.academia.edu/4489774/PREDICTING_THE_GEOGRAPHIC_ORIGIN_OF_WORLD_MUSIC\nhttps://en.wikipedia.org/wiki/Directional_statistics\nhttps://cran.r-project.org/web/views/Spatial.html",
     "STE Post(s)-link": "CRV/207533",
-    "External URL(S) in post(s)-link": "John Melton-Academia, Directional statistics-Wikipedia, Spatial Data Cran"
+    "External URL(S) in post(s)-link": "John Melton-Academia, Directional statistics-Wikipedia, Spatial Data Cran",
+    "References to practice terminology": "https://www.tandfonline.com/doi/abs/10.1080/03610928108828131\nhttps://www.jstor.org/stable/2958339\nhttps://books.google.de/books?id=KA12QgAACAAJ&hl=en",
+    "References to practice terminology-link": "Directional statistics (Mardia), Directional statistics (Bingham), Directional statistics (Gaile & Burt)",
   },
   {
     "id": "Dcl26",
@@ -159,7 +180,9 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/207566",
     "External URL(S) in post(s)": "http://www.academia.edu/4489774/PREDICTING_THE_GEOGRAPHIC_ORIGIN_OF_WORLD_MUSIC",
     "STE Post(s)-link": "CRV/207566",
-    "External URL(S) in post(s)-link": "John Melton-Academi"
+    "External URL(S) in post(s)-link": "John Melton-Academi",
+    "References to practice terminology": "https://doi.org/10.1016/j.ecoinf.2012.10.006\nhttps://pubs.nctm.org/view/journals/mt/66/8/article-p695.xml",
+    "References to practice terminology-link": "Geographical data characteristics (Stojanova), Manhattan distance (Krause)",
   },
   {
     "id": "Dcl27",
@@ -170,6 +193,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/18853557\nhttps://datascience.stackexchange.com/questions/65215",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/18853557, DTSC/65215",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "Time-data to frequency (Chakraborty and Elzarka)",
   },
   {
     "id": "Dcl28",
@@ -180,7 +205,8 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/311494",
     "External URL(S) in post(s)": "https://ianlondon.github.io/blog/encoding-cyclical-features-24hour-time/\nhttps://stats.stackexchange.com/questions/126230/optimal-construction-of-day-feature-in-neural-networks\nhttps://datascience.stackexchange.com/questions/5990/what-is-a-good-way-to-transform-cyclic-ordinal-attributes\nhttps://medium.com/towards-data-science/top-6-errors-novice-machine-learning-engineers-make-e82273d394db",
     "STE Post(s)-link": "CRV/311494",
-    "External URL(S) in post(s)-link": "Ian London's Blog, CRV/126230, DTSC/5990, Dossman C.-Medium"
+    "External URL(S) in post(s)-link": "Ian London's Blog, CRV/126230, DTSC/5990, Dossman C.-Medium",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl29",
@@ -191,7 +217,9 @@ export const TABLE_5 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/13901\nhttps://stackoverflow.com/questions/46355357",
     "External URL(S) in post(s)": "http://www.cs.columbia.edu/~vondrick/largetrain.pdf",
     "STE Post(s)-link": "DTSC/13901, STO/46355357",
-    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)"
+    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)",
+    "References to practice terminology": "https://dl.acm.org/doi/book/10.5555/1972541\nhttps://link.springer.com/article/10.1007/s10462-004-0751-8\nhttps://ieeexplore.ieee.org/abstract/document/1583581\nhttps://dl.acm.org/doi/10.5555/550616\nhttps://link.springer.com/chapter/10.1007/3-540-45681-3_2\nhttps://dl.acm.org/doi/abs/10.1145/956750.956758?casa_token=QQtZFoT7ojAAAAAA:XWdqyuxUwm9gnL-1var8hajUhDZlqgAWY1vdvxBiZ8zDvKZLvZkxlYFphRHx-_wPJ2hUk_FTy60",
+    "References to practice terminology-link": "Data noise (Han & Kamber), Data noise  (Zhu & Wu), Noise & data analysis (Xiong et al), Binning (Kennedy et al.), Distance-based outliers (Angiulli & Pizzuti), Distance-based outliers(Bay & Schwabacher)",
   },
   {
     "id": "Dcl30",
@@ -202,7 +230,9 @@ export const TABLE_5 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/25832",
     "External URL(S) in post(s)": "https://arxiv.org/pdf/1508.00330.pdf\nhttps://datascience.stackexchange.com/questions/13061/when-to-use-he-or-glorot-normal-initialization-over-uniform-init-and-what-are\nhttps://datascience.stackexchange.com/questions/23493/why-relu-is-better-than-the-other-activation-functions\nhttps://datascience.stackexchange.com/questions/23287/why-large-weights-are-prohibited-in-neural-networks",
     "STE Post(s)-link": "DTSC/25832",
-    "External URL(S) in post(s)-link": "Liao z. et al (2015), DTSC/13061,  DTSC/23493, DTSC/23287"
+    "External URL(S) in post(s)-link": "Liao z. et al (2015), DTSC/13061,  DTSC/23493, DTSC/23287",
+    "References to practice terminology": "https://openreview.net/forum?id=rkb15iZdZB",
+    "References to practice terminology-link": "RELU (Nair & Hinton)",
   },
   {
     "id": "Dcl31",
@@ -213,6 +243,7 @@ export const TABLE_5 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/65215",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "DTSC/65215",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl32",
@@ -223,7 +254,9 @@ export const TABLE_5 = [
     "STE Post(s)": "https://stackoverflow.com/questions/44131718",
     "External URL(S) in post(s)": "http://www.deeplearningbook.org/contents/rnn.html",
     "STE Post(s)-link": "STO/44131718",
-    "External URL(S) in post(s)-link": "Deep Learning book"
+    "External URL(S) in post(s)-link": "Deep Learning book",
+    "References to practice terminology": "https://ieeexplore.ieee.org/abstract/document/6795963",
+    "References to practice terminology-link": "LSTM (Hochreiter & Schmidhuber)",
   },
   {
     "id": "Dcl33",
@@ -234,27 +267,35 @@ export const TABLE_5 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/3693",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "DTSC/3693",
+    "References to practice terminology": "-"
   },
 ];
 
 export const TABLE_5_COLUMNS = [
-  { field: 'id', headerName: "ID", width: 160 },
-  { field: 'Phase Category', headerName: "Phase Category", width: 150 },
-  { field: 'Subcategory', headerName: "Subcategory", width: 210 },
-  { field: 'Description', headerName: "Description", width: 300 },
+  {field: 'id', headerName: "ID", width: 80, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 100, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 170, sortable: false},
+  {field: 'Description', headerName: "Description", width: 300, sortable: false},
+  {
+    field: 'References to practice terminology',
+    headerName: "References to practice terminology",
+    width: 290,
+    sortable: false,
+    renderCell: renderUrlCell,
+  },
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 170,
-    renderCell: renderUrlCell,
-    sortable: false
+    width: 190,
+    sortable: false,
+    renderCell: renderUrlCell
   },
   {
     field: 'External URL(S) in post(s)',
     headerName: "External URL(S) in post(s)",
-    width: 230,
-    renderCell: renderUrlCell,
+    width: 250,
     sortable: false,
+    renderCell: renderUrlCell,
   },
   {
     field: 'STE Post(s)-link',
@@ -265,10 +306,15 @@ export const TABLE_5_COLUMNS = [
     hide: true,
   },
   {
+    field: 'References to practice terminology-link',
+    hide: true,
+  },
+  {
     field: 'Number of experts that validated the practice',
     headerName: "Number of experts that validated the practice",
     width: 200,
     type: 'number',
-    sortable: false
+    sortable: false,
+    hide: true,
   },
 ];

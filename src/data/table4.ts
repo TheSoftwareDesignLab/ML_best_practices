@@ -46,14 +46,14 @@ export const TABLE_4 = [
 ];
 
 export const TABLE_4_COLUMNS = [
-  { field: 'id', headerName: "ID", width: 160 },
+  { field: 'id', headerName: "ID", width: 80 },
   { field: 'Phase Category', headerName: "Phase Category", width: 150 },
   { field: 'Subcategory', headerName: "Subcategory", width: 210 },
   { field: 'Description', headerName: "Description", width: 300 },
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 200,
+    width: 190,
     renderCell: renderUrlCell,
     sortable: false
   },
@@ -77,6 +77,7 @@ export const TABLE_4_COLUMNS = [
     headerName: "Number of experts that validated the practice",
     width: 200,
     type: 'number',
-    sortable: false
+    sortable: false,
+    hide: true,
   },
 ];
