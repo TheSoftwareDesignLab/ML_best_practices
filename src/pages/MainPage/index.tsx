@@ -12,7 +12,7 @@ import {TABLE_4_COLUMNS, TABLE_4} from "../../data/table4";
 import {TABLE_5_COLUMNS, TABLE_5} from "../../data/table5";
 import taxImage from "../../assets/taxImage.png";
 
-import {Container, ImageContainer} from "./styles";
+import {Container, ImageContainer, Image} from "./styles";
 
 type Props = {
   data: any;
@@ -36,7 +36,7 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <ImageContainer>
-            <img src={taxImage} height={500} alt="Taxonomy image"/>
+            <Image src={taxImage} alt="Taxonomy image"/>
           </ImageContainer>
           <br/>
           <br/>
