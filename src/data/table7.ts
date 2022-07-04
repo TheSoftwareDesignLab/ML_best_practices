@@ -43,7 +43,7 @@ export const TABLE_7 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/17645",
     "External URL(S) in post(s)": "https://arxiv.org/pdf/1508.00330\nhttps://datascience.stackexchange.com/q/13061/28175\nhttps://datascience.stackexchange.com/q/23493/28175\nhttps://datascience.stackexchange.com/q/23287/28175",
     "STE Post(s)-link": "DTSC/17645",
-    "External URL(S) in post(s)-link": "Liao z. et al., DTSC/13061, DTSC/23493, DTSC/23287"
+    "External URL(S) in post(s)-link": "Liao z. et al (2015)., DTSC/13061, DTSC/23493, DTSC/23287"
   },
   {
     "id": "Fe5",

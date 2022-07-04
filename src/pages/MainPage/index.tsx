@@ -49,6 +49,8 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <ImageContainer>
             <img src={taxImage} height={500} alt="Taxonomy image"/>
+            <br/>
+            <Typography variant="caption" align="justify">Taxonomy of machine learning best practices, preview</Typography>
           </ImageContainer>
           <br/>
           <br/>
@@ -82,16 +84,22 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <Typography variant="body1" align="justify"> We consider EDA as the first subcategory of data cleaning, since a possible first step to modify/preprocess/wrangling data is to understand the underlying characteristics of the data (e.g., trends, nature, format). Regarding this procedure, we identified a total of seven validated practices.</Typography>
           <br/>
           <TemplateTable data={TABLE_3} columns={TABLE_3_COLUMNS} tableHeight={500}/>
+          <Typography variant="caption" align="justify">DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
+          <br/>
           <br/>
           <Typography variant="subtitle1" align="left" mb={1}> <em>Data</em></Typography>
           <Typography variant="body1" align="justify"> In this subcategory, we present practices that deal with splitting the dataset and practices related to when to measure (i.e., determining the size of the dataset) a dataset. This subgroup is called Data since we present practices related to the data and dataset themselves and not to any transformation (beyond splitting the data) or analysis. In this group, four validated practices were identified.</Typography>
           <br/>
-          <TemplateTable data={TABLE_4} columns={TABLE_4_COLUMNS} tableHeight={440}/>
+          <TemplateTable data={TABLE_4} columns={TABLE_4_COLUMNS} tableHeight={480}/>
+          <Typography variant="caption" align="justify">CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q</Typography>
+          <br/>
           <br/>
           <Typography variant="subtitle1" align="left" mb={1}> <em>Wrangling</em></Typography>
           <Typography variant="body1" align="justify"> In this subcategory, we grouped all the practices that munge/transform the raw data into another format that will be useful when training the models. In this category, 22 practices were accepted.</Typography>
           <br/>
           <TemplateTable data={TABLE_5} columns={TABLE_5_COLUMNS} tableHeight={500}/>
+          <Typography variant="caption" align="justify">CS: https://cs.stackexchange.com/q<br/>CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>OD: https://opendata.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
+          <br/>
           <br/>
           <Typography variant="h6" align="left">  Data labeling (dl)</Typography>
           <Typography variant="body1" align="justify"> This phase, in which a ground truth label is assigned to each sample/record of the datasets <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>, is not always required since some ML approaches do not need it. In particular, ground truth is needed when working with projects that use supervised or semi-supervised learning but is not needed for projects that use unsupervised learning. For instance, if a snippet of code is going to be classified as vulnerable or not, then for each snippet of code, a label indicating if it is vulnerable or not should be assigned. Two practices were identified in this stage. The first practice in this group was validated by all the experts (<em>dl1</em>), while the second practice (<em>dl2</em>) was validated by three of them. </Typography>
