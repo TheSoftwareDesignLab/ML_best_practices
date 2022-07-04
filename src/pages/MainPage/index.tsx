@@ -15,6 +15,12 @@ import {TABLE_7_COLUMNS, TABLE_7} from "../../data/table7";
 import {TABLE_8_COLUMNS, TABLE_8} from "../../data/table8";
 import {TABLE_9_COLUMNS, TABLE_9} from "../../data/table9";
 import {TABLE_10_COLUMNS, TABLE_10} from "../../data/table10";
+import {TABLE_11_COLUMNS, TABLE_11} from "../../data/table11";
+import {TABLE_12_COLUMNS, TABLE_12} from "../../data/table12";
+import {TABLE_13_COLUMNS, TABLE_13} from "../../data/table13";
+
+
+
 
 import taxImage from "../../assets/taxImage.png";
 
@@ -53,17 +59,21 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <Typography variant="h5">Complementary tables of practices</Typography>
           <br/>
-          <Typography variant="body1" align="justify"> The following tables are complement to the taxonomy presented in the previous chart. These tables are organized in the ML pipeline stages proposed by <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">Amershi et al. (2019)</a> (<em>Model requirement</em>, <em> Data collection</em>, <em> Data cleaning</em>, <em> Feature engineering</em>, <em> Data labeling</em>, <em> Model training</em>, <em> Model evaluation</em>, <em> Model deployment</em> and <em> Model monitoring</em>) and an extra stage called <em> implementation</em>. For each stage, a brief explanation of it is given and a table with the respective practices is presented. In the Table, an indicator per practice is given (this ID match wirh the ID used in the article). In addition to the ID, the taxonomy's categories are presented with the description of the practices.  Furthermore, we present extra resources, the post(s) that is related to the practices, external URL(s) related to the post, and extra urls that help to understand the practices and the ML terminology/concepts associated to them. </Typography>
+          <Typography variant="body1" align="justify"> The following tables are complement to the taxonomy presented in the previous chart. These tables are organized in the ML pipeline stages proposed by <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">Amershi et al. (2019)</a> (<em>Model requirement</em>, <em> Data collection</em>, <em> Data cleaning</em>, <em> Feature engineering</em>, <em> Data labeling</em>, <em> Model training</em>, <em> Model evaluation</em>, <em> Model deployment</em> and <em> Model monitoring</em>) and an extra stage called <em> implementation</em>. For each stage, a brief explanation of it is given and a table with the respective practices is presented. In the Table, an indicator per practice is given (this ID match wirh the ID used in the article). In addition to the ID, the taxonomy's categories are presented with the description of the practices.  Furthermore, we present extra resources, the post(s) that is related to the practices, external URL(s) related to the post, and extra urls that help to understand the practices and the ML terminology/concepts associated to them. Kindly note that below each table, you will find an explanation abou the acronyms used in each table.</Typography>
           <br/>
           <Typography variant="h6" align="left">  Model requirement (mr)</Typography>
           <Typography variant="body1" align="justify"> In this stage, designers decide the functionalities that should be included in an ML system, their usefulness for new or existing products, and the most appropriate type of ML model for the expected system features <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. Four ML best practices were identified for this stage.</Typography>
           <br/>
           <TemplateTable data={TABLE_1} columns={TABLE_1_COLUMNS} tableHeight={540}/>
+          <Typography variant="caption" align="justify">CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
+          <br/>
           <br/>
           <Typography variant="h6" align="left">  Data collection (dc)</Typography>
           <Typography variant="body1" align="justify"> This second stage encompasses looking for, collecting, and integrating available datasets <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. Datasets can be created from scratch, or existing datasets can be used to train models in a transfer learning fashion. Both scenarios are widely used when creating ML systems. In this stage, seven validated practices were identified. Bear in mind that the identified practices relate to some characteristics that the collected data has to meet during/after this process and not to the collection process itself.</Typography>
           <br/>
           <TemplateTable data={TABLE_2} columns={TABLE_2_COLUMNS} tableHeight={570}/>
+          <Typography variant="caption" align="justify">AI: https://ai.stackexchange.com/q<br/>CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
+          <br/>
           <br/>
           <Typography variant="h6" align="left">  Data cleaning (dcl)</Typography>
           <Typography variant="body1" align="justify"> This is the second stage in which the most practices were identified (i.e., 33 practices). In general, this stage involves removing inaccurate or noisy records from a dataset <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. In this case, we present the practices aggregated by three subcategories: <b><em>Exploratory data analysis (EDA)</em></b>, <b><em>Wrangling</em></b>, and <b><em>Data</em></b>.</Typography>
@@ -118,6 +128,24 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <Typography variant="body1" align="justify"> In the model evaluation stage, trained and tuned models are tested. For instance, engineers evaluate the output models on tested or safeguard datasets by using pre-defined metrics. In particular cases, for critical domains (e.g., safety-critical applica- tions from the medical domain), this stage involves human evaluation <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. For this stage, we have a few practices, eight, that are related to model evaluations. However, some other practices that involve or are associated with model evaluation/testing were mentioned before as part of other stages. All the experts validated two practices (<em>me1</em> - <em>me2</em>), and six (<em>me3</em> - <em>me8</em>) were validated by three experts. </Typography>
           <TemplateTable data={TABLE_10} columns={TABLE_10_COLUMNS} tableHeight={400}/> 
           <Typography variant="caption" align="justify">CS: https://cs.stackexchange.com/q<br/>CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q</Typography>
+          <br/>
+          <br/>
+          <Typography variant="h6" align="left">  Model deployment (md)</Typography>
+          <Typography variant="body1" align="justify"> Note that, in this stage, the inference code (i.e., the code used to train/test/validate a model) of the previously trained, tuned, and tested model is deployed on a production setup <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. Two practices were identified in this stage and validated by the four experts. </Typography>
+          <TemplateTable data={TABLE_11} columns={TABLE_11_COLUMNS} tableHeight={280}/> 
+          <Typography variant="caption" align="justify">CRV: https://stats.stackexchange.com/q</Typography>
+          <br/>
+          <br/>
+          <Typography variant="h6" align="left">  Model monitoring (mm)</Typography>
+          <Typography variant="body1" align="justify"> In the last but not least stage of the ML pipeline, models are continuously monitored for possible errors while being executed in the real world <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">(Amershi et al. (2019))</a>. For this stage, two practices related to data deviations were validated by all the experts. </Typography>
+          <TemplateTable data={TABLE_12} columns={TABLE_12_COLUMNS} tableHeight={320}/> 
+          <Typography variant="caption" align="justify">DTSC: https://datascience.stackexchange.com/q</Typography>
+          <br/>
+          <br/>
+          <Typography variant="h6" align="left">  Implementation (i)</Typography>
+          <Typography variant="body1" align="justify"> This section does not correspond to an established stage in the ML pipeline proposed by <a href="https://www.microsoft.com/en-us/research/uploads/prod/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf">Amershi et al. (2019)</a>; this is a complementary stage in which we present practices that are more related to the resources needed to build/monitor an ML model/system and involves more than one of the previous stages. Eleven practices were identified in this stage, from which nine (<em>i1</em> - <em>i9</em>)  were validated by all the experts, and  two (<em>i10</em> - <em>i11</em>)  were validated by three of the experts.</Typography>
+          <TemplateTable data={TABLE_13} columns={TABLE_13_COLUMNS} tableHeight={500}/> 
+          <Typography variant="caption" align="justify">CRV: https://stats.stackexchange.com/q<br/>DTSC: https://datascience.stackexchange.com/q<br/>STO: https://stackoverflow.com/q <br/> SE: https://softwareengineering.stackexchange.com/q</Typography>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </Container>

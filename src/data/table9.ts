@@ -90,7 +90,7 @@ export const TABLE_9 = [
     "Description": "In order to avoid overfitting nested cross-validation should be used.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stats.stackexchange.com/questions/15585\nhttps://stats.stackexchange.com/questions/11602",
-    "External URL(S) in post(s)": "http://dx.doi.org/10.1073/pnas.102102699\nhttp://jmlr.csail.mit.edu/papers/volume11/cawley10a/cawley10a.pdf\nhttp://jmlr.csail.mit.edu/papers/volume8/cawley07a/cawley07a.pdf",
+    "External URL(S) in post(s)": "http://dx.doi.org/10.1073/pnas.102102699\nhttps://jmlr.csail.mit.edu/papers/volume11/cawley10a/cawley10a.pdf\nhttps://jmlr.csail.mit.edu/papers/volume8/cawley07a/cawley07a.pdf",
     "STE Post(s)-link": "CRV/15585, CRV/11602",
     "External URL(S) in post(s)-link": "Ambroise C. et al. (2002), Cawley G. et al. (2010), Cawley G. et al. (2007)"
   },
@@ -103,7 +103,7 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/405622",
     "External URL(S) in post(s)": "https://stats.stackexchange.com/questions/390186/is-decision-threshold-a-hyperparameter-in-logistic-regression\nhttps://stats.stackexchange.com/a/405049/1352\nhttps://www.fharrell.com/post/classification/",
     "STE Post(s)-link": "CRV/405622",
-    "External URL(S) in post(s)-link": "CRV/405622, CRV/405049, Classification vs. Prediction"
+    "External URL(S) in post(s)-link": "CRV/390186, CRV/405049, Classification vs. Prediction"
   },
   {
     "id": "Mt43",
