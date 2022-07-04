@@ -24,7 +24,7 @@ import {TABLE_13_COLUMNS, TABLE_13} from "../../data/table13";
 
 import taxImage from "../../assets/taxImage.png";
 
-import {Container, ImageContainer} from "./styles";
+import {Container, ImageContainer, Image} from "./styles";
 
 type Props = {
   data: any;
@@ -48,7 +48,7 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <ImageContainer>
-            <img src={taxImage} height={500} alt="Taxonomy image"/>
+            <Image src={taxImage} alt="Taxonomy image"/>
             <br/>
             <Typography variant="caption" align="justify">Taxonomy of machine learning best practices, preview</Typography>
           </ImageContainer>

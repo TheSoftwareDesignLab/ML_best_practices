@@ -8,3 +8,7 @@ export const ImageContainer = styled.div`
   width: 100%;
   text-align: center;
 `;
+
+export const Image = styled.img`
+  max-height: 500px;
+`;
