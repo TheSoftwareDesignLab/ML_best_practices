@@ -1,3 +1,5 @@
+import {renderUrlCell} from "../utils/renderUrlCell";
+
 export const TABLE_3 = [
   {
     "id": "Dcl1",
@@ -6,7 +8,11 @@ export const TABLE_3 = [
     "Description": "For each possible attribute/column in a dataset, we should identify its type before applying any pre-processing technique.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stackoverflow.com/questions/5652357",
-    "External URL(S) associated to the post": "http://oreilly.com/catalog/9780596510497/\nhttp://en.wikipedia.org/wiki/Cross_tabulation"
+    "External URL(S) in post(s)": "http://oreilly.com/catalog/9780596510497/\nhttps://en.wikipedia.org/wiki/Cross_tabulation",
+    "STE Post(s)-link": "STO/5652357",
+    "External URL(S) in post(s)-link": "Book-Watters P. and Boslaugh S, Cross tabulation Wikipedia",
+    "References to practice terminology": "https://link.springer.com/book/10.1007/978-1-84882-260-3",
+    "References to practice terminology-link": "Pre-processing techniques- Berthold",
   },
   {
     "id": "Dcl2",
@@ -15,7 +21,10 @@ export const TABLE_3 = [
     "Description": "It should be determined what variables are dependent and what ones are independent.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stackoverflow.com/questions/5652357",
-    "External URL(S) associated to the post": "http://oreilly.com/catalog/9780596510497/\nhttp://en.wikipedia.org/wiki/Cross_tabulation"
+    "External URL(S) in post(s)": "http://oreilly.com/catalog/9780596510497/\nhttps://en.wikipedia.org/wiki/Cross_tabulation",
+    "STE Post(s)-link": "STO/5652357",
+    "External URL(S) in post(s)-link": "Book-Watters P. and Boslaugh S, Cross tabulation Wikipedia",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl3",
@@ -24,7 +33,9 @@ export const TABLE_3 = [
     "Description": "When analyzing time series/temporal data, possible temporal trends should be identified.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/2368",
-    "External URL(S) associated to the post": "-"
+    "External URL(S) in post(s)": "-",
+    "STE Post(s)-link": "DTSC/2368",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl4",
@@ -33,7 +44,9 @@ export const TABLE_3 = [
     "Description": "When analyzing time series/temporal data, weird trends should be identified.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/2368",
-    "External URL(S) associated to the post": "-"
+    "External URL(S) in post(s)": "-",
+    "STE Post(s)-link": "DTSC/2368",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl5",
@@ -42,7 +55,9 @@ export const TABLE_3 = [
     "Description": "It is needed to identify missing values and their nature before doing any pre-processing.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/39058",
-    "External URL(S) associated to the post": "-"
+    "External URL(S) in post(s)": "-",
+    "STE Post(s)-link": "DTSC/39058",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl6",
@@ -51,7 +66,9 @@ export const TABLE_3 = [
     "Description": "Before applying any pre-processing technique, potential errors in data should be identified.",
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/2368",
-    "External URL(S) associated to the post": "-"
+    "External URL(S) in post(s)": "-",
+    "STE Post(s)-link": "DTSC/2368",
+    "References to practice terminology": "-",
   },
   {
     "id": "Dcl7",
@@ -60,18 +77,49 @@ export const TABLE_3 = [
     "Description": "If correlation between existing features and instances of geographical data are needed, then, geographical data should be clustered.",
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/64990",
-    "External URL(S) associated to the post": "https://www.geeksforgeeks.org/clustering-in-machine-learning/"
+    "External URL(S) in post(s)": "https://www.geeksforgeeks.org/clustering-in-machine-learning/",
+    "STE Post(s)-link": "DTSC/64990",
+    "External URL(S) in post(s)-link": "Clustering GeeksForGeeks",
+    "References to practice terminology": "-",
   }
 ];
 
 export const TABLE_3_COLUMNS = [
-  { field: 'id', headerName: "ID", width: 160 },
-  { field: 'Phase Category', headerName: "Phase Category", width: 150 },
-  { field: 'Subcategory', headerName: "Subcategory", width: 210 },
-  { field: 'Description', headerName: "Description", width: 300 },
-  { field: 'Number of experts that validated the practice', headerName: "Number of experts that" +
-      " validated the practice", width: 200, type: 'number', },
-  { field: 'STE Post(s)', headerName: "STE Post(s)", width: 250 },
-  { field: 'External URL(S) associated to the post', headerName: "External URL(S) associated to" +
-      " the post", width: 300 },
+  {field: 'id', headerName: "ID", width: 80, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 100, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 200, sortable: false},
+  {field: 'Description', headerName: "Description", width: 300, sortable: false},
+  {
+    field: 'References to practice terminology',
+    headerName: "References to practice terminology",
+    width: 260,
+    sortable: false,
+    renderCell: renderUrlCell,
+  },
+  {
+    field: 'STE Post(s)',
+    headerName: "STE Post(s)",
+    width: 190,
+    sortable: false,
+    renderCell: renderUrlCell
+  },
+  {
+    field: 'External URL(S) in post(s)',
+    headerName: "External URL(S) in post(s)",
+    width: 250,
+    sortable: false,
+    renderCell: renderUrlCell,
+  },
+  {
+    field: 'STE Post(s)-link',
+    hide: true,
+  },
+  {
+    field: 'External URL(S) in post(s)-link',
+    hide: true,
+  },
+  {
+    field: 'References to practice terminology-link',
+    hide: true,
+  }
 ];
