@@ -373,6 +373,7 @@ export const TABLE_8_COLUMNS = [
     headerName: "Number of experts that validated the practice",
     width: 200,
     type: 'number',
-    sortable: false
+    sortable: false,
+    hide: true,
   },
 ];
