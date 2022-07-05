@@ -9,7 +9,8 @@ export const TABLE_9 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stats.stackexchange.com/questions/179872",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/179872"
+    "STE Post(s)-link": "CRV/179872",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt34",
@@ -19,7 +20,8 @@ export const TABLE_9 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stats.stackexchange.com/questions/308376",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/308376"
+    "STE Post(s)-link": "CRV/308376",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt35",
@@ -29,7 +31,8 @@ export const TABLE_9 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stats.stackexchange.com/questions/425014",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/425014"
+    "STE Post(s)-link": "CRV/425014",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt36",
@@ -40,7 +43,9 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/355428",
     "External URL(S) in post(s)": "http://web.stanford.edu/~hastie/Papers/ESLII.pdf\nhttps://stats.stackexchange.com/questions/7004/calculating-required-sample-size-precision-of-variance-estimate/7008#7008\nhttps://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set/129125#129125\nhttps://cran.r-project.org/web/packages/rms/index.html",
     "STE Post(s)-link": "CRV/355428",
-    "External URL(S) in post(s)-link": "Book Hastie T. et al., CRV/7008, CRV/129125, Regression Modeling CRAN"
+    "External URL(S) in post(s)-link": "Book Hastie T. et al., CRV/7008, CRV/129125, Regression Modeling CRAN",
+    "References to practice terminology": "https://link.springer.com/book/10.1007/978-0-387-21606-5\nhttps://link.springer.com/book/10.1007/978-0-387-21606-5",
+    "References to practice terminology-link": "Cross-validation, K-fold cross-validation",
   },
   {
     "id": "Mt37",
@@ -51,6 +56,7 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/410118",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/410118",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt38",
@@ -61,6 +67,8 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/410118",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/410118",
+    "References to practice terminology": "https://rss.onlinelibrary.wiley.com/doi/abs/10.1111/j.2517-6161.1974.tb00994.x",
+    "References to practice terminology-link": "Nested cross-validation",
   },
   {
     "id": "Mt39",
@@ -71,6 +79,7 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stackoverflow.com/questions/65706957",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/65706957",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt40",
@@ -81,7 +90,8 @@ export const TABLE_9 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/12761\nhttps://datascience.stackexchange.com/questions/13901\nhttps://stackoverflow.com/questions/65706957",
     "External URL(S) in post(s)": "http://www.cs.columbia.edu/~vondrick/largetrain.pdf",
     "STE Post(s)-link": "DTSC/12761, DTSC/13901, STO/65706957",
-    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)"
+    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt41",
@@ -92,7 +102,8 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/15585\nhttps://stats.stackexchange.com/questions/11602",
     "External URL(S) in post(s)": "http://dx.doi.org/10.1073/pnas.102102699\nhttps://jmlr.csail.mit.edu/papers/volume11/cawley10a/cawley10a.pdf\nhttps://jmlr.csail.mit.edu/papers/volume8/cawley07a/cawley07a.pdf",
     "STE Post(s)-link": "CRV/15585, CRV/11602",
-    "External URL(S) in post(s)-link": "Ambroise C. et al. (2002), Cawley G. et al. (2010), Cawley G. et al. (2007)"
+    "External URL(S) in post(s)-link": "Ambroise C. et al. (2002), Cawley G. et al. (2010), Cawley G. et al. (2007)",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt42",
@@ -103,7 +114,8 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/405622",
     "External URL(S) in post(s)": "https://stats.stackexchange.com/questions/390186/is-decision-threshold-a-hyperparameter-in-logistic-regression\nhttps://stats.stackexchange.com/a/405049/1352\nhttps://www.fharrell.com/post/classification/",
     "STE Post(s)-link": "CRV/405622",
-    "External URL(S) in post(s)-link": "CRV/390186, CRV/405049, Classification vs. Prediction"
+    "External URL(S) in post(s)-link": "CRV/390186, CRV/405049, Classification vs. Prediction",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt43",
@@ -114,7 +126,9 @@ export const TABLE_9 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/13901",
     "External URL(S) in post(s)": "http://www.cs.columbia.edu/~vondrick/largetrain.pdf",
     "STE Post(s)-link": "DTSC/13901",
-    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)"
+    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)",
+    "References to practice terminology": "https://www.sciencedirect.com/science/article/pii/S016981411100062X?casa_token=SGvz6WMJlC8AAAAA:3azb50-ZJrPv6p3cUhHCv_GDW_5_g089KwFNqZoDRLSYxTWMCZMS08xDoTmNs3jHNrJn_Jcw",
+    "References to practice terminology-link": "Monitor performance by plotting (Anzanello & Fogliatto)",
   },
   {
     "id": "Mt44",
@@ -125,7 +139,9 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/355428",
     "External URL(S) in post(s)": "http://web.stanford.edu/~hastie/Papers/ESLII.pdf\nhttps://stats.stackexchange.com/questions/7004/calculating-required-sample-size-precision-of-variance-estimate/7008#7008\nhttps://stats.stackexchange.com/questions/19048/what-is-the-difference-between-test-set-and-validation-set/129125#129125\nhttps://cran.r-project.org/web/packages/rms/index.html",
     "STE Post(s)-link": "CRV/355428",
-    "External URL(S) in post(s)-link": "Book Hastie T. et al., CRV/7008, CRV/129125, Regression Modeling CRAN"
+    "External URL(S) in post(s)-link": "Book Hastie T. et al., CRV/7008, CRV/129125, Regression Modeling CRAN",
+    "References to practice terminology": "https://epubs.siam.org/doi/book/10.1137/1.9781611970319\nhttps://www.tandfonline.com/doi/abs/10.1198/016214504000002087",
+    "References to practice terminology-link": "Bootstrapping, Bootstrapping chracteristics",
   },
   {
     "id": "Mt45",
@@ -136,6 +152,7 @@ export const TABLE_9 = [
     "STE Post(s)": "https://stackoverflow.com/questions/65706957",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "STO/65706957",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt46",
@@ -145,7 +162,8 @@ export const TABLE_9 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://stats.stackexchange.com/questions/342110",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/342110"
+    "STE Post(s)-link": "CRV/342110",
+    "References to practice terminology": "-",
   },
   {
     "id": "Mt47",
@@ -155,29 +173,37 @@ export const TABLE_9 = [
     "Number of experts that validated the practice": 3,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/77298",
     "External URL(S) in post(s)": "https://scikit-optimize.github.io/stable/auto_examples/sklearn-gridsearchcv-replacement.html\nhttps://stackoverflow.com/questions/20463281/how-do-i-solve-overfitting-in-random-forest-of-python-sklearn\nhttps://stats.stackexchange.com/questions/111968/random-forest-how-to-handle-overfitting",
-    "STE Post(s)-link": "DTSC/77298, STO/20463281, CRV/111968",
-    "External URL(S) in post(s)-link": "Hyperparameter search Sklearn, "
+    "STE Post(s)-link": "DTSC/77298",
+    "External URL(S) in post(s)-link": "Hyperparameter search Sklearn, STO/20463281, CRV/111968",
+    "References to practice terminology": "-",
   },
 ];
 
-export const TABLE_9_COLUMNS = [
-  {field: 'id', headerName: "ID", width: 70, sortable: false},
-  {field: 'Phase Category', headerName: "Phase Category", width: 200, sortable: false},
-  {field: 'Subcategory', headerName: "Subcategory", width: 160, sortable: false},
+export const TABLE_9_COLUMNS = [ 
+  {field: 'id', headerName: "ID", width: 80, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 100, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 170, sortable: false},
   {field: 'Description', headerName: "Description", width: 300, sortable: false},
+  {
+    field: 'References to practice terminology',
+    headerName: "References to practice terminology",
+    width: 290,
+    sortable: false,
+    renderCell: renderUrlCell,
+  },
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 200,
-    renderCell: renderUrlCell,
-    sortable: false
+    width: 190,
+    sortable: false,
+    renderCell: renderUrlCell
   },
   {
     field: 'External URL(S) in post(s)',
     headerName: "External URL(S) in post(s)",
-    width: 200,
-    renderCell: renderUrlCell,
+    width: 250,
     sortable: false,
+    renderCell: renderUrlCell,
   },
   {
     field: 'STE Post(s)-link',
@@ -188,10 +214,15 @@ export const TABLE_9_COLUMNS = [
     hide: true,
   },
   {
+    field: 'References to practice terminology-link',
+    hide: true,
+  },
+  {
     field: 'Number of experts that validated the practice',
     headerName: "Number of experts that validated the practice",
     width: 200,
     type: 'number',
-    sortable: false
+    sortable: false,
+    hide: true,
   },
 ];

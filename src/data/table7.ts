@@ -76,7 +76,7 @@ export const TABLE_7 = [
     "External URL(S) in post(s)": "https://thuijskens.github.io/2017/10/07/feature-selection/\nhttps://stats.stackexchange.com/questions/321765/forward-or-backward-sequential-feature-selection\nhttps://en.wikipedia.org/wiki/Lasso_(statistics)",
     "STE Post(s)-link": "STO/54034392, CRV/261902",
     "External URL(S) in post(s)-link": "t.Huijskens Feature selection, CRV/321765,  Lasso Wikipedia",
-    "References to practice terminology": "=",
+    "References to practice terminology": "-",
   },
   {
     "id": "Fe7",
