@@ -141,7 +141,7 @@ export const TABLE_9 = [
     "STE Post(s)-link": "CRV/355428",
     "External URL(S) in post(s)-link": "Book Hastie T. et al., CRV/7008, CRV/129125, Regression Modeling CRAN",
     "References to practice terminology": "https://epubs.siam.org/doi/book/10.1137/1.9781611970319\nhttps://www.tandfonline.com/doi/abs/10.1198/016214504000002087",
-    "References to practice terminology-link": "Bootstrapping, Bootstrapping chracteristics",
+    "References to practice terminology-link": "Bootstrapping, Bootstrapping characteristics",
   },
   {
     "id": "Mt45",

@@ -9,7 +9,9 @@ export const TABLE_10 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/82805",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DTSC/82805"
+    "STE Post(s)-link": "DTSC/82805",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },
   {
     "id": "Me2",
@@ -19,7 +21,9 @@ export const TABLE_10 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://stats.stackexchange.com/questions/342110\nhttps://stackoverflow.com/questions/65706957\nhttps://stats.stackexchange.com/questions/179872",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "CRV/342110, STO/65706957, CRV/179872"
+    "STE Post(s)-link": "CRV/342110, STO/65706957, CRV/179872",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },
   {
     "id": "Me3",
@@ -29,7 +33,9 @@ export const TABLE_10 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/32859",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DTSC/32859"
+    "STE Post(s)-link": "DTSC/32859",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },
   {
     "id": "Me4",
@@ -40,6 +46,8 @@ export const TABLE_10 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/179872",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/179872",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },
   {
     "id": "Me5",
@@ -49,7 +57,9 @@ export const TABLE_10 = [
     "Number of experts that validated the practice": 4,
     "STE Post(s)": "https://datascience.stackexchange.com/questions/82805",
     "External URL(S) in post(s)": "-",
-    "STE Post(s)-link": "DTSC/82805"
+    "STE Post(s)-link": "DTSC/82805",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },
   {
     "id": "Me6",
@@ -60,7 +70,9 @@ export const TABLE_10 = [
     "STE Post(s)": "https://datascience.stackexchange.com/questions/13901",
     "External URL(S) in post(s)": "http://www.cs.columbia.edu/~vondrick/largetrain.pdf",
     "STE Post(s)-link": "DTSC/13901",
-    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)"
+    "External URL(S) in post(s)-link": "Zhu X. et al. (2012)",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },  
   {
     "id": "Me7",
@@ -71,6 +83,8 @@ export const TABLE_10 = [
     "STE Post(s)": "https://cs.stackexchange.com/questions/115441",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CS/115441",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   },  
   {
     "id": "Me8",
@@ -81,27 +95,37 @@ export const TABLE_10 = [
     "STE Post(s)": "https://stats.stackexchange.com/questions/342110",
     "External URL(S) in post(s)": "-",
     "STE Post(s)-link": "CRV/342110",
+    "References to practice terminology": "",
+    "References to practice terminology-link": "",
   }
 ];
 
-export const TABLE_10_COLUMNS = [
-  {field: 'id', headerName: "ID", width: 70, sortable: false},
-  {field: 'Phase Category', headerName: "Phase Category", width: 200, sortable: false},
-  {field: 'Subcategory', headerName: "Subcategory", width: 160, sortable: false},
-  {field: 'Description', headerName: "Description", width: 300, sortable: false},
+export const TABLE_10_COLUMNS = [ 
+  {field: 'id', headerName: "ID", width: 80, sortable: false},
+  {field: 'Phase Category', headerName: "Phase Category", width: 90, sortable: false},
+  {field: 'Subcategory', headerName: "Subcategory", width: 170, sortable: false},
+  {field: 'Description', headerName: "Description", width: 330, sortable: false},
+  {
+    field: 'References to practice terminology',
+    headerName: "References to practice terminology",
+    width: 290,
+    sortable: false,
+    renderCell: renderUrlCell,
+    hide: true,
+  },
   {
     field: 'STE Post(s)',
     headerName: "STE Post(s)",
-    width: 200,
-    renderCell: renderUrlCell,
-    sortable: false
+    width: 190,
+    sortable: false,
+    renderCell: renderUrlCell
   },
   {
     field: 'External URL(S) in post(s)',
     headerName: "External URL(S) in post(s)",
-    width: 200,
-    renderCell: renderUrlCell,
+    width: 250,
     sortable: false,
+    renderCell: renderUrlCell,
   },
   {
     field: 'STE Post(s)-link',
@@ -112,10 +136,15 @@ export const TABLE_10_COLUMNS = [
     hide: true,
   },
   {
+    field: 'References to practice terminology-link',
+    hide: true,
+  },
+  {
     field: 'Number of experts that validated the practice',
     headerName: "Number of experts that validated the practice",
     width: 200,
     type: 'number',
-    sortable: false
+    sortable: false,
+    hide: true,
   },
 ];
