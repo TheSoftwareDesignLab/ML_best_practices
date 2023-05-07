@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_2 = [
   {
-    "id": "Dc1",
+    "id": "DC1",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
     "Description": "The distribution of the training data should reflect the real distribution.",
@@ -16,7 +16,7 @@ export const TABLE_2 = [
 
   },
   {
-    "id": "Dc2",
+    "id": "DC2",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
     "Description": "If a model is expected to detect \"something\" in an image, then representative examples of that \"something\" should be present in the training and testing data.",
@@ -29,7 +29,7 @@ export const TABLE_2 = [
 
   },
   {
-    "id": "Dc3",
+    "id": "DC3",
     "Phase Category": "Data",
     "Subcategory": "Ensure minimum size and how to measure the size",
     "Description": "When measuring a dataset size it should not be done only by referring to storage space but also in terms of rows and columns.",
@@ -42,7 +42,7 @@ export const TABLE_2 = [
     "References to practice terminology-link": "Compute models complexity- Surana, Time complexity analysis- Lee & Chen, Complexity NN- Bianchini & Scarselli",
   },
   {
-    "id": "Dc4",
+    "id": "DC4",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
     "Description": "If it is required to augment the number of instances in the negative class, preexisting datasets could be used for including more instances in the dataset.",
@@ -55,7 +55,7 @@ export const TABLE_2 = [
     "References to practice terminology-link": "For example: RICO dataset",
   },
   {
-    "id": "Dc5",
+    "id": "DC5",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
     "Description": "The images that are going to be used as instances of the negative class should have some common characteristics with the positive ones.",
@@ -68,7 +68,7 @@ export const TABLE_2 = [
 
   },
   {
-    "id": "Dc6",
+    "id": "DC6",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
     "Description": "The minimum size of the object that is going to be detected should be present in the data that is going to be used for training the model.",
@@ -80,7 +80,7 @@ export const TABLE_2 = [
 
   },
   {
-    "id": "Dc7",
+    "id": "DC7",
     "Phase Category": "Data",
     "Subcategory": "Dataset construction",
     "Description": "The object region of interest (ROI) should have a similar aspect ratio in all the positive images.",

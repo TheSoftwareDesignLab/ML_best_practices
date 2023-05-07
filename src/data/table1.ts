@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_1 = [
   {
-    "id": "Mr1",
+    "id": "MR1",
     "Phase Category": "Requirement definition",
     "Subcategory": "Metric selection",
     "Description": "The goal of the model that is going to be trained should be considered when selecting the most appropriate metrics for assessing the model performance.",
@@ -13,7 +13,7 @@ export const TABLE_1 = [
     "External URL(S) in post(s)-link": "Imbalanced learn-Sklearn"
   },
   {
-    "id": "Mr2",
+    "id": "MR2",
     "Phase Category": "Requirement definition",
     "Subcategory": "Retraining model",
     "Description": "It is important to identify the needs/requirements of model retraining.",
@@ -23,7 +23,7 @@ export const TABLE_1 = [
     "STE Post(s)-link": "STO/56859324",
   },
   {
-    "id": "Mr3",
+    "id": "MR3",
     "Phase Category": "Requirement definition",
     "Subcategory": "External services",
     "Description": "If an ML model is published as a cloud service, specifically, when a classification/prediction task uses ML cloud-based services, it is important to define the use case and the model requirements in order to identify how frequently the service should be invoked.",
@@ -33,7 +33,7 @@ export const TABLE_1 = [
     "STE Post(s)-link": "STO/56859324",
   },
   {
-    "id": "Mr4",
+    "id": "MR4",
     "Phase Category": "Requirement definition",
     "Subcategory": "Probabilistic model",
     "Description": "When using probabilistic forecasting in a decision system, it is necessary to decouple the probabilistic model optimization from the probability threshold selection.",

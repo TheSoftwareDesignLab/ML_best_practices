@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_13 = [
   {
-    "id": "I1",
+    "id": "CC1",
     "Phase Category": "Implementation",
     "Subcategory": "Reproducibility/replicability",
     "Description": "For the data cleaning procedure stage, routines should be  used to avoid implementing everything from scratch.",
@@ -14,7 +14,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I2",
+    "id": "CC2",
     "Phase Category": "Implementation",
     "Subcategory": "Reproducibility/replicability",
     "Description": "Across the ML stages, pipelines should be used to automate processes and save time in complex tasks.",
@@ -27,7 +27,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I3",
+    "id": "CC3",
     "Phase Category": "Implementation",
     "Subcategory": "Reproducibility/replicability",
     "Description": "In order to enable reproducibility in data pre-processing, pipelines should be used and exported.",
@@ -39,7 +39,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I4",
+    "id": "CC4",
     "Phase Category": "Implementation",
     "Subcategory": "Documentation/traceability",
     "Description": "For each trained model, a separate file should be used in order to keep track of all the possible experiments.",
@@ -51,7 +51,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "", 
   },
   {
-    "id": "I5",
+    "id": "CC5",
     "Phase Category": "Implementation",
     "Subcategory": "Documentation/traceability",
     "Description": "The (hyper-)parameters used in the training process should be documented.",
@@ -63,7 +63,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "", 
   },
   {
-    "id": "I6",
+    "id": "CC6",
     "Phase Category": "Implementation",
     "Subcategory": "Consistency/Integrity",
     "Description": "Once a model is deployed and a petition of data deletion is made, the data should be deleted across the entire pipeline.",
@@ -76,7 +76,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I7",
+    "id": "CC7",
     "Phase Category": "Implementation",
     "Subcategory": "Resources usage",
     "Description": "When dealing with large datasets or large files, aspects such as parallel executions, GPU usage, and input/output efficiency should be taken into account.",
@@ -89,7 +89,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I8",
+    "id": "CC8",
     "Phase Category": "Implementation",
     "Subcategory": "Resources usage",
     "Description": "In order to optimize, parallel execution should be used if it supported by the algorithms.",
@@ -102,7 +102,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I9",
+    "id": "CC9",
     "Phase Category": "Implementation",
     "Subcategory": "Resources usage",
     "Description": "It should be verified if both, model and dataset, fit in memory.",
@@ -115,7 +115,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I10",
+    "id": "CC10",
     "Phase Category": "Implementation",
     "Subcategory": "Resources usage",
     "Description": "When dealing with large corpus, in NLP-related tasks, sparse structures should be used to improve the implementation performance.",
@@ -127,7 +127,7 @@ export const TABLE_13 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "I11",
+    "id": "CC11",
     "Phase Category": "Implementation",
     "Subcategory": "Resources usage",
     "Description": "When dealing with large data, resource-aware implementations should be used.",

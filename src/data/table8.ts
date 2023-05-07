@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_8 = [
   {
-    "id": "Mt1",
+    "id": "MT1",
     "Phase Category": "Training*",
     "Subcategory": "Aspects to consider when training a model",
     "Description": "If the objective is to build specialized models, then a specific model for each category in a categorical feature should be trained.",
@@ -14,7 +14,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt2",
+    "id": "MT2",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a model",
     "Description": "If the dataset that is going to be used has multiple features in different scale systems, then invariant-algorithms like tree based algorithms should be used.",
@@ -27,7 +27,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Decision Trees, Gradient Boosting Trees, Extratrees, Naive Bayes",
   },
   {
-    "id": "Mt3",
+    "id": "MT3",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a model",
     "Description": "When training prediction models with time series data, then, sliding windows should be used.",
@@ -40,7 +40,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Sliding windows",
   },
   {
-    "id": "Mt4",
+    "id": "MT4",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a model",
     "Description": "Test data should not be included in the training data in order to have a fair metric.",
@@ -52,7 +52,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Data leakage (Zheng & Casari)",
   },
   {
-    "id": "Mt5",
+    "id": "MT5",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a model",
     "Description": "As many data as possible should be used when training a model.",
@@ -64,7 +64,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt6",
+    "id": "MT6",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a NN",
     "Description": "When training a neural network (NN), dropout layer(s) should be used to avoid overfitting.",
@@ -78,7 +78,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Dropout & Over-fitting (Srivastava et al.), Dropout & Over-fitting (Hinton et al.), Dropout & Over-fitting (Warde-Farley et al.), Dropout & Over-fitting (Sanjar et al.)",
   },
   {
-    "id": "Mt7",
+    "id": "MT7",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a NN",
     "Description": "If symmetry is needed to be avoided, in a neural network, their components should be initialized with different values.",
@@ -90,7 +90,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt8",
+    "id": "MT8",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a NN",
     "Description": "Neural Networks weights should be initialized randomly to avoid symmetry.",
@@ -103,7 +103,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Xavier initialization (Glorot & Bengio)",
   },
   {
-    "id": "Mt9",
+    "id": "MT9",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a NN",
     "Description": "When training a NN, Early Stopping should be used (e.g., after 10 epochs the model has not improved in 0.001 in accuracy).",
@@ -115,7 +115,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Early Stopping",
   },
   {
-    "id": "Mt10",
+    "id": "MT10",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a NN",
     "Description": "If images are being used for training a neural network, it is preferable a convolutional layer than a fully connected one.",
@@ -128,7 +128,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Convolutional Layer, Vision image Transformer, MLP mixers",
   },
   {
-    "id": "Mt11",
+    "id": "MT11",
     "Phase Category":"Training*",
     "Subcategory": "Select learning rate",
     "Description": "if a neural network stagnates with non-optimal results, then the learning rate should be decreased.",
@@ -139,7 +139,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt12",
+    "id": "MT12",
     "Phase Category":"Training*",
     "Subcategory": "When using transfer learning",
     "Description": "If there is not enough data when training a deep neural network from scratch, transfer learning with fine tuning should be tried.",
@@ -152,7 +152,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Transfer learning, BERT",
   },
   {
-    "id": "Mt13",
+    "id": "MT13",
     "Phase Category":"Training*",
     "Subcategory": "Convergence",
     "Description": "If a deep neural network does not converge in an specific number of iterations, then increasing this number should be tried.",
@@ -163,7 +163,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt14",
+    "id": "MT14",
     "Phase Category":"Training*",
     "Subcategory": "Ensemble",
     "Description": "When having a large dataset that does not fit in memory, multiples models could be first trained on random data samples, and then an ensemble with those models could be created to get a more accurate model than a base learner with fewer data.",
@@ -176,7 +176,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Ensemble method (Bagging)",
   },
   {
-    "id": "Mt15",
+    "id": "MT15",
     "Phase Category":"Training*",
     "Subcategory": "Retraining models",
     "Description": "A model should be retrained with an online approximation if the model needs to dynamically adapt to new patterns from the data.",
@@ -188,7 +188,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt16",
+    "id": "MT16",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a model",
     "Description": "If dependencies between features exist, it is suggested to used a gradien boost decision tree (GBDT) instead of a Random Forest (RF).",
@@ -200,7 +200,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Gradient Boosting Decision Tree, Random Forest ",
   },
   {
-    "id": "Mt17",
+    "id": "MT17",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a neural network",
     "Description": "The number of parameters of a deep neural network should be proportional to the number of instances needed for training a deep neural network.",
@@ -213,7 +213,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Num. Parameters vs. data (1), Num. Parameters vs. data (2)",
   },
   {
-    "id": "Mt18",
+    "id": "MT18",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a neural network",
     "Description": "If there is a large data variance, the number of layers in a neural network must be increased.",
@@ -224,7 +224,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt19",
+    "id": "MT19",
     "Phase Category":"Training*",
     "Subcategory": "Aspects to consider when training a neural network",
     "Description": "A neural network should be trained with different initialized weights several times, in order to first get an average of the results and its variance and then to get a more specific judgment of the overall performance.",
@@ -236,7 +236,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt20",
+    "id": "MT20",
     "Phase Category":"Training*",
     "Subcategory": "Convergence",
     "Description": "If a neural netwok does not converge, then the learning rate (LR) should be reduced by a half or one third.",
@@ -248,7 +248,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "e.g. Reduce LR by half (Jin et al), e.g. Reduce LR by half (Ding)",
   },
   {
-    "id": "Mt21",
+    "id": "MT21",
     "Phase Category":"Training*",
     "Subcategory": "Convergence",
     "Description": "When a neural network does not converge, the size of the mini-batches should be increased.",
@@ -260,7 +260,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Mini-batches",
   },
   {
-    "id": "Mt22",
+    "id": "MT22",
     "Phase Category":"Training*",
     "Subcategory": "Convergence",
     "Description": "For faster convergence of Multi Layer Perceptrons, Stochastic Gradient Descent (SGD) should be used.",
@@ -272,7 +272,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Multi-Layer Perceptrons",
   },
   {
-    "id": "Mt23",
+    "id": "MT23",
     "Phase Category":"Training*",
     "Subcategory": "Improve performance",
     "Description": "If robustness is required in a machine learning model, then, Adversarial machine learning should be used.",
@@ -285,7 +285,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Robustness (Lanckriet et al.), Robustness (Shivaswamy et al.)",
   },
   {
-    "id": "Mt24",
+    "id": "MT24",
     "Phase Category":"Training*",
     "Subcategory": "Improve performance",
     "Description": "If the time-performance of a model is being a large time series data, then the data could be sub-sampled.",
@@ -297,7 +297,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt25",
+    "id": "MT25",
     "Phase Category":"Training*",
     "Subcategory": "Improve performance",
     "Description": "When sub-sampling time-series data, it should be checked that unwanted confounding between sampled origins and seasonality in data is not being introduced.",
@@ -309,7 +309,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt26",
+    "id": "MT26",
     "Phase Category":"Training*",
     "Subcategory": "Ensemble",
     "Description": "Before combining models, the correlation of models' prediction should be measured.",
@@ -320,7 +320,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt27",
+    "id": "MT27",
     "Phase Category":"Training*",
     "Subcategory": "Ensemble",
     "Description": "Only independent models should be combined in an ensemble.",
@@ -332,7 +332,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Example in which this doesn't apply (Adaptive Boosting)",
   },
   {
-    "id": "Mt28",
+    "id": "MT28",
     "Phase Category":"Training*",
     "Subcategory": "Ensemble",
     "Description": "When training a model with mixed type features, which includes time series features, separate models for each part of the representation should be built, and then the different models should be combined in an ensemble.",
@@ -343,7 +343,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt29",
+    "id": "MT29",
     "Phase Category":"Training*",
     "Subcategory": "Retraining models",
     "Description": "When using clustering, the model should be re-trained with new data to build more clusters and increase its efficiency.",
@@ -357,7 +357,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Cluster stability (1) (Smith & Dubes), Cluster stability (2) (Levine & Domany), Cluster stability (3) (Fowlkes & Mallows), Cluster stability (4) (Ben-Hur et al.)",
   },
   {
-    "id": "Mt30",
+    "id": "MT30",
     "Phase Category":"Training*",
     "Subcategory": "Retraining models",
     "Description": "In order to deal with concept drift when working with data streams, models should be re-trained with small a limited number of instances.",
@@ -370,7 +370,7 @@ export const TABLE_8 = [
     "References to practice terminology-link": "Concept drifft (Žliobaite et al.)",
   },
   {
-    "id": "Mt31",
+    "id": "MT31",
     "Phase Category":"Training*",
     "Subcategory": "Retraining models",
     "Description": "A model should be retrained in offline mode, due to this method could lead to a better global approximation.",
@@ -381,7 +381,7 @@ export const TABLE_8 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt32",
+    "id": "MT32",
     "Phase Category":"Training*",
     "Subcategory": "Retraining models",
     "Description": "In the case of online and offline re-training are not an option, then using batch/mini-batch approach should be used.",

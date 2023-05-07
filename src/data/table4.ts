@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_4 = [
   {
-    "id": "Dcl8",
+    "id": "DCL8",
     "Phase Category": "Data",
     "Subcategory": "Improve performance",
     "Description": "For improving model performance with a dataset that has acategorical feature, the data should be split by each category.",
@@ -13,7 +13,7 @@ export const TABLE_4 = [
     "External URL(S) in post(s)-link": "CRV/187210"
   },
   {
-    "id": "Dcl9",
+    "id": "DCL9",
     "Phase Category": "Data",
     "Subcategory": "Prevent computation of  biased metrics and avoid overfitting",
     "Description": "If it is needed to optimize hyper-parameters, the dataset should be split into training, validation and test sets in order to prevent overfitting and avoid biased computing metrics.",
@@ -23,7 +23,7 @@ export const TABLE_4 = [
     "STE Post(s)-link": "CRV/179872",
   },
   {
-    "id": "Dcl10",
+    "id": "DCL10",
     "Phase Category": "Data",
     "Subcategory": "Detect trends, errors  and relations in data",
     "Description": "In order to prevent overfitting and avoid biased metrics when optimizing, the whole dataset should be divided into trainand test; then, the training data should be divided into folds for cross-validation",
@@ -33,7 +33,7 @@ export const TABLE_4 = [
     "STE Post(s)-link": "CRV/179872, CRV/342110, CRV/410118",
   },
   {
-    "id": "Dcl11",
+    "id": "DCL11",
     "Phase Category": "Data",
     "Subcategory": "Ensure minimum size and how to measure the size",
     "Description": "The size of a dataset should be only calcuated after the data pre-processing.",

@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_9 = [
   {
-    "id": "Mt33",
+    "id": "MT33",
     "Phase Category": "Validation",
     "Subcategory": "Hyper-parameter tuning",
     "Description": "The optimization process should be done with a validation set.",
@@ -13,7 +13,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt34",
+    "id": "MT34",
     "Phase Category": "Validation",
     "Subcategory": "Hyper-parameter tuning",
     "Description": "Each model that is combined into an ensemble should be optimized independently.",
@@ -24,7 +24,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt35",
+    "id": "MT35",
     "Phase Category": "Validation",
     "Subcategory": "Hyper-parameter tuning",
     "Description": "In order to monitor the learning process's evolution, the model's predefined metrics should be calculated at the end of each epoch.",
@@ -35,7 +35,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt36",
+    "id": "MT36",
     "Phase Category": "Validation",
     "Subcategory": "Aspects to consider when validating a model",
     "Description": "When data is insufficient to split it into train, validation and test, then cross-validation should be used.",
@@ -48,7 +48,7 @@ export const TABLE_9 = [
     "References to practice terminology-link": "Cross-validation, K-fold cross-validation",
   },
   {
-    "id": "Mt37",
+    "id": "MT37",
     "Phase Category": "Validation",
     "Subcategory": "Aspects to consider when validating a model",
     "Description": "It is preferable to use cross-validation instead of a training and test data split for training and testing a model.",
@@ -59,7 +59,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt38",
+    "id": "MT38",
     "Phase Category": "Validation",
     "Subcategory": "Aspects to consider when validating a model",
     "Description": "It is preferable to use nested cross-validation instead of a training and test split for training and testing a model.",
@@ -71,7 +71,7 @@ export const TABLE_9 = [
     "References to practice terminology-link": "Nested cross-validation",
   },
   {
-    "id": "Mt39",
+    "id": "MT39",
     "Phase Category": "Validation",
     "Subcategory": "Aspects to consider when validating a model",
     "Description": "When training a neural network, in order to ensure reproducibility and fair comparison, the seed used for generating random numbers in the training process should be fixed.",
@@ -82,7 +82,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt40",
+    "id": "MT40",
     "Phase Category": "Validation",
     "Subcategory": "Avoid overfitting",
     "Description": "In order to prevent overfitting, cross-validation should be used.",
@@ -94,7 +94,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt41",
+    "id": "MT41",
     "Phase Category": "Validation",
     "Subcategory": "Avoid overfitting",
     "Description": "In order to avoid overfitting nested cross-validation should be used.",
@@ -106,7 +106,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt42",
+    "id": "MT42",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "First tune the hyper-parameters of the probabilistic model and then adjust the decision thresholds.",
@@ -118,7 +118,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt43",
+    "id": "MT43",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "In order to monitor the evolution of the learning process and identify issues at an early stage on it, learning curves should be plotted.",
@@ -131,7 +131,7 @@ export const TABLE_9 = [
     "References to practice terminology-link": "Monitor performance by plotting (Anzanello & Fogliatto)",
   },
   {
-    "id": "Mt44",
+    "id": "MT44",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "When evaluating a model, bootstrapping or cross-validation should be tried.",
@@ -144,7 +144,7 @@ export const TABLE_9 = [
     "References to practice terminology-link": "Bootstrapping, Bootstrapping characteristics",
   },
   {
-    "id": "Mt45",
+    "id": "MT45",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "When training/validating/testing a model, the process of cross-validation should be repeated with different seeds to prevent the impact of using a fixed seed.",
@@ -155,7 +155,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt46",
+    "id": "MT46",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "If you want to lower the uncertainty of the hyper-parameter tuning process, then nested cross-validation should be used.",
@@ -166,7 +166,7 @@ export const TABLE_9 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Mt47",
+    "id": "MT47",
     "Phase Category": "Validation",
     "Subcategory": "",
     "Description": "In order to avoid overfitting the performance between training and testing should be compared.",

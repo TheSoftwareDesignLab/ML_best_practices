@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_6 = [
   {
-    "id": "Dl1",
+    "id": "DL1",
     "Phase Category": "Labeling",
     "Subcategory": "Scalability",
     "Description": "Manual data labeling could be expensive, so it could be done by more than one person in order to scale the labeling process.",
@@ -15,7 +15,7 @@ export const TABLE_6 = [
     "References to practice terminology-link": "For example: AWS Mechanical Turk",
   },
   {
-    "id": "Dl2",
+    "id": "DL2",
     "Phase Category": "Labeling",
     "Subcategory": "Parameterize",
     "Description": "In the case of object detection, when selecting the region of interest, a tool should be used to fix the aspect ratio for all the labeled objects.",

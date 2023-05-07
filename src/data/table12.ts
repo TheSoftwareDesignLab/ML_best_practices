@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_12 = [
   {
-    "id": "Mm1",
+    "id": "MM1",
     "Phase Category": "Monitoring",
     "Subcategory": "Be aware of model performance and new data",
     "Description": "After deployment, the new data that will serve as input for the  model should be constantly monitored to detect any deviation from the original data.",
@@ -14,7 +14,7 @@ export const TABLE_12 = [
     "References to practice terminology-link": "Model degradation (Mauri & Damiani), Model degradation (Adam et al.)",
   },
   {
-    "id": "Mm2",
+    "id": "MM2",
     "Phase Category": "Monitoring",
     "Subcategory": "Be aware of model performance and new data",
     "Description": "When monitoring the data distribution, if it deviates from  the original one used for training and tuning models, then the model should be retrained in order to avoid degradation.",

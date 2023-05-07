@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_11 = [
   {
-    "id": "Md1",
+    "id": "MD1",
     "Phase Category": "Deployment",
     "Subcategory": "-",
     "Description": "A deployed model should be the one that has the best hyper-parameters, but it should be re-trained with the entire dataset.",
@@ -14,7 +14,7 @@ export const TABLE_11 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Md2",
+    "id": "MD2",
     "Phase Category": "Deployment",
     "Subcategory": "-",
     "Description": "When deploying a model, the entire pipeline should be exported instead of exporting only the model.",

@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_7 = [
   {
-    "id": "Fe1",
+    "id": "FE1",
     "Phase Category": "Feature selection",
     "Subcategory": "General",
     "Description": "Feature engineering should be only executed with the training data and without taking into account the whole dataset.",
@@ -15,7 +15,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Data leakage (Zheng & Casari)",
   },
   {
-    "id": "Fe2",
+    "id": "FE2",
     "Phase Category": "Feature selection",
     "Subcategory": "General",
     "Description": "Multivariate feature engineering is preferred over univariate feature selection.",
@@ -28,7 +28,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Voxel selection method, Maximal-Relevance selection, Chi-square test, ANOVA F-test (Elssied et al.), ANOVA F-test (Dhal & Azad), Mutual information",
   },
   {
-    "id": "Fe3",
+    "id": "FE3",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "It is relevant to check existing techniques of dimensionality reduction.",
@@ -41,7 +41,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Linear Discriminat Analysis, Non-negative matrix factorization (1), Non-negative matrix factorization (2), Principal component analysis",
   },
   {
-    "id": "Fe4",
+    "id": "FE4",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "When using feature selection algorithms, it is important to evaluate which are their assumptions and if they hold for a particular case.",
@@ -54,7 +54,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Chi-square test (Zhai et al.), Chi-square test (McHugh)",
   },
   {
-    "id": "Fe5",
+    "id": "FE5",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "When using the principal component analysis (PCA) method, its assumptions should be checked.",
@@ -67,7 +67,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Principal component analysis",
   },
   {
-    "id": "Fe6",
+    "id": "FE6",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "When selecting features, the existing techniques for this purpose should be checked.",
@@ -79,7 +79,7 @@ export const TABLE_7 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Fe7",
+    "id": "FE7",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "When using Logistic Regression for selecting features, select the significant ones.",
@@ -92,7 +92,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Logistic Regression (LR), LR for feature selection (Cheng et al.), LR for feature selection (Bursac et al.), LR for feature selection (Moisey et al.) ",
   },
   {
-    "id": "Fe8",
+    "id": "FE8",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "When using Logistic Regression for selecting features, select the significant ones.",
@@ -105,7 +105,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Mutual information (Dhal & Azad), Mutual information (Sharma & Juglan)",
   },
   {
-    "id": "Fe9",
+    "id": "FE9",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "Using backward and forward feature selection should be taken into account regardless the classifier that is being used.",
@@ -118,7 +118,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Forward feature selection (FFS), Backward feature selection (BFS), FFS example (1), FFS example (2), BFS example (1) ",
   },
   {
-    "id": "Fe10",
+    "id": "FE10",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "Using backward and forward feature selection should be taken into account regardless the classifier that is being used.",
@@ -131,7 +131,7 @@ export const TABLE_7 = [
     "References to practice terminology-link": "Lasso, Elastic Net, Multi-layer Perceptron",
   },
   {
-    "id": "Fe11",
+    "id": "FE11",
     "Phase Category": "Feature selection",
     "Subcategory": "Consider existing techniques and their assumptions",
     "Description": "The usage of Lasso, Ridge, or Glmnet or feature selection in a multiple regression model should be considered.",

@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_10 = [
   {
-    "id": "Me1",
+    "id": "ME1",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "Use adversarial inputs for testing a model in order to ensure robustness.",
@@ -14,7 +14,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "Me2",
+    "id": "ME2",
     "Phase Category": "Validation",
     "Subcategory": "Hyper parameter tuning",
     "Description": "After the best hyper-parameters are found, the model with those \“optimum\" hyper-parameters should be tested in the set built for testing.",
@@ -26,7 +26,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "Me3",
+    "id": "ME3",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "If a superset vocabulary was built for a natural language processing {NLP} task, then the model bias should be checked.",
@@ -38,7 +38,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "Me4",
+    "id": "ME4",
     "Phase Category": "Validation",
     "Subcategory": "Aspects  to consider when validating a model",
     "Description": "The comparison between models to identify the best model should be made in the test set.",
@@ -50,7 +50,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "Me5",
+    "id": "ME5",
     "Phase Category": "Validation",
     "Subcategory": "Unit testing",
     "Description": "Previously annotated data should be used when testing machine learning models with unit tests.",
@@ -62,7 +62,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },
   {
-    "id": "Me6",
+    "id": "ME6",
     "Phase Category": "Validation",
     "Subcategory":  "Aspects to consider when validating a model",
     "Description": "The performance and the time required to train a model should be taken into account when comparing models",
@@ -75,7 +75,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },  
   {
-    "id": "Me7",
+    "id": "ME7",
     "Phase Category": "Validation",
     "Subcategory": "Aspects to consider when validating a model",
     "Description": "The membership of the testing data to the training data should be tested.",
@@ -87,7 +87,7 @@ export const TABLE_10 = [
     "References to practice terminology-link": "",
   },  
   {
-    "id": "Me8",
+    "id": "ME8",
     "Phase Category": "Validation",
     "Subcategory": "Aspects to consider when validating a model",
     "Description": "When cross-validation is used for testing, then the hold-out set should not be used.",

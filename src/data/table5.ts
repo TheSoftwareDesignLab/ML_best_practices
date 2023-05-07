@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_5 = [
   {
-    "id": "Dcl12",
+    "id": "DCL12",
     "Phase Category": "Wrangling",
     "Subcategory": "Impute missing data",
     "Description": "If an imputation technique is used, the same technique should be used in the training, validation and testing sets.",
@@ -14,7 +14,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Imputation techniques (Jerez), Imputation techniques (Bertsimas), Bias imputation (Kang), Bias imputation (Graham)",
   },
   {
-    "id": "Dcl13",
+    "id": "DCL13",
     "Phase Category": "Wrangling",
     "Subcategory": "Balance data",
     "Description": "When having an unbalanced dataset, balancing the datashould be done only in the training dataset.",
@@ -26,7 +26,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl14",
+    "id": "DCL14",
     "Phase Category": "Wrangling",
     "Subcategory": "Balance data",
     "Description": "Oversampling should be done only after the whole dataset is split into train, validation and test sets.",
@@ -38,7 +38,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl15",
+    "id": "DCL15",
     "Phase Category": "Wrangling",
     "Subcategory": "Balance data",
     "Description": "When undersampling data, the samples that are being selected should be randomly sampled.",
@@ -51,7 +51,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Learning from imbalanced datasets (IMD), Metrics in IMD (Provost & Fawcett), Metrics in IMD and balance (He & Ma)",
   },
   {
-    "id": "Dcl16",
+    "id": "DCL16",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform numerical features",
     "Description": "Transformation of numerical data should be done in all the sets by using the statistics computed on the training data.",
@@ -63,7 +63,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl17",
+    "id": "DCL17",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform numerical features",
     "Description": "Transformations should take into account (i) the model that is going to be used and (ii) the data nature.",
@@ -75,7 +75,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   }, 
   {
-    "id": "Dcl18",
+    "id": "DCL18",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform numerical features",
     "Description": "Features/attributes should be scaled when using a support vector machine (SVM) model.",
@@ -87,7 +87,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "SVM (Cortes & Vapnik), SVM (Hearst et al.)",
   },
   {
-    "id": "Dcl19",
+    "id": "DCL19",
     "Phase Category": "Wrangling",
     "Subcategory":  "Transform numerical features",
     "Description": "When transforming numerical data into ratios and the transformation leads to infinite values, smoothing should be used.",
@@ -99,7 +99,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Laplace smoothing (Valcarce et al.)",
   },
   {
-    "id": "Dcl20",
+    "id": "DCL20",
     "Phase Category": "Wrangling",
     "Subcategory": "Encode non numerical data",
     "Description": "if an algorithm does not support categorical data, this type  of feature should be encoded into multiple binary features or by counting frequencies.",
@@ -111,7 +111,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "One-hot encoding (Garavaglia et al.)",
   },
   {
-    "id": "Dcl21",
+    "id": "DCL21",
     "Phase Category": "Wrangling",
     "Subcategory": "Encode non numerical data",
     "Description": "Datetime data could be partitioned into their corresponding components (e.g., if you have day-month-year then split it into day, month, year).",
@@ -123,7 +123,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   }, 
   {
-    "id": "Dcl22",
+    "id": "DCL22",
     "Phase Category": "Wrangling",
     "Subcategory": "Augment dataset",
     "Description": "Data augmentation should be used in order to prevent over-fitting.",
@@ -136,7 +136,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Image augmentation (Shorten & Khoshgoftaar), Image augmentation (Perez & Wang), Image augmentation (Fawzi et al.), Image augmentation (Nalepa et al.), Audio augmentation (Nanni et al.), Audio augmentation (Ko et al.), Audio augmentation (Wei et al.), Text augmentation (Duong and Nguyenhi), Text augmentation (Qiu S. et al.), Text augmentation (Atliha & Šešok)",
   },
   {
-    "id": "Dcl23",
+    "id": "DCL23",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform non numerical data",
     "Description": "For analyzing handwritten text images, the image should besplit into individual characters.",
@@ -148,7 +148,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl24",
+    "id": "DCL24",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform non numerical data",
     "Description": "If the task of a model is detecting objects, then each region of interest (ROI) should be cropped instead of using the complete image.",
@@ -159,7 +159,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl25",
+    "id": "DCL25",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform  numerical features",
     "Description": "When handling geographical data and the latitude and longitude will be transformed, directional statistics should be used to deal with potential interdependence of latitude and longitude, and with scales wrapping around.",
@@ -172,7 +172,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Directional statistics (Mardia), Directional statistics (Bingham), Directional statistics (Gaile & Burt)",
   },
   {
-    "id": "Dcl26",
+    "id": "DCL26",
     "Phase Category": "Wrangling",
     "Subcategory": "Encode numerical data",
     "Description": "When handling geographical data, the geodesic distance should be used to compute the distance between two points of interest.",
@@ -185,7 +185,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Geographical data characteristics (Stojanova), Manhattan distance (Krause)",
   },
   {
-    "id": "Dcl27",
+    "id": "DCL27",
     "Phase Category": "Wrangling",
     "Subcategory": "Encode misellaneous",
     "Description": "If a variable is dependable on time along with other features,then, the timeseries variable could be encoded as frequencies.",
@@ -197,7 +197,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Time-data to frequency (Chakraborty and Elzarka)",
   },
   {
-    "id": "Dcl28",
+    "id": "DCL28",
     "Phase Category": "Wrangling",
     "Subcategory": "Encode non numerical data",
     "Description": "When encoding geographical data, Sine and Cosine facets could be used for representing the cyclical characteristics from date time features.",
@@ -209,7 +209,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl29",
+    "id": "DCL29",
     "Phase Category": "Wrangling",
     "Subcategory": "Eliminate noisy data",
     "Description": "If noise is present in a dataset, then, it should be removed,with techniques such as smoothing.",
@@ -222,7 +222,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "Data noise (Han & Kamber), Data noise  (Zhu & Wu), Noise & data analysis (Xiong et al), Binning (Kennedy et al.), Distance-based outliers (Angiulli & Pizzuti), Distance-based outliers(Bay & Schwabacher)",
   },
   {
-    "id": "Dcl30",
+    "id": "DCL30",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform  numerical features",
     "Description": "If rectified linear unit (ReLU) is being used as an activation function in NeuralNetworks (NN), then, the features should be scaled.",
@@ -235,7 +235,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "RELU (Nair & Hinton)",
   },
   {
-    "id": "Dcl31",
+    "id": "DCL31",
     "Phase Category": "Wrangling",
     "Subcategory": "Encode misellaneous",
     "Description": "If clustering is needed, the dataset contains aggregated structures (e.g., a 3D array), and the order of the aggregated data matters, then a new feature should be created in to encode the order.",
@@ -246,7 +246,7 @@ export const TABLE_5 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl32",
+    "id": "DCL32",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform misellaneous data type",
     "Description": "When working with an long short-term memory (LSTM) network the sequences that are going to be fed into the NN should be padded in order to equalize the length of all the sequences.",
@@ -259,7 +259,7 @@ export const TABLE_5 = [
     "References to practice terminology-link": "LSTM (Hochreiter & Schmidhuber)",
   },
   {
-    "id": "Dcl33",
+    "id": "DCL33",
     "Phase Category": "Wrangling",
     "Subcategory": "Transform misellaneous data type",
     "Description": "When data is being anonymized with hashing, it should bedone over a unique identifier using salt.",

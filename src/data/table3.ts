@@ -2,7 +2,7 @@ import {renderUrlCell} from "../utils/renderUrlCell";
 
 export const TABLE_3 = [
   {
-    "id": "Dcl1",
+    "id": "DCL1",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Define types of features and  dependencies between them",
     "Description": "For each possible attribute/column in a dataset, we should identify its type before applying any pre-processing technique.",
@@ -15,7 +15,7 @@ export const TABLE_3 = [
     "References to practice terminology-link": "Pre-processing techniques- Berthold",
   },
   {
-    "id": "Dcl2",
+    "id": "DCL2",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Define types of features and  dependencies between them",
     "Description": "It should be determined what variables are dependent and what ones are independent.",
@@ -27,7 +27,7 @@ export const TABLE_3 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl3",
+    "id": "DCL3",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Detect trends, errors  and relations in data",
     "Description": "When analyzing time series/temporal data, possible temporal trends should be identified.",
@@ -38,7 +38,7 @@ export const TABLE_3 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl4",
+    "id": "DCL4",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Detect trends, errors  and relations in data",
     "Description": "When analyzing time series/temporal data, weird trends should be identified.",
@@ -49,7 +49,7 @@ export const TABLE_3 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl5",
+    "id": "DCL5",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Detect trends, errors  and relations in data",
     "Description": "It is needed to identify missing values and their nature before doing any pre-processing.",
@@ -60,7 +60,7 @@ export const TABLE_3 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl6",
+    "id": "DCL6",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Detect trends, errors  and relations in data",
     "Description": "Before applying any pre-processing technique, potential errors in data should be identified.",
@@ -71,7 +71,7 @@ export const TABLE_3 = [
     "References to practice terminology": "-",
   },
   {
-    "id": "Dcl7",
+    "id": "DCL7",
     "Phase Category": "Exploratory data analysis",
     "Subcategory": "Dataset construction",
     "Description": "If correlation between existing features and instances of geographical data are needed, then, geographical data should be clustered.",
