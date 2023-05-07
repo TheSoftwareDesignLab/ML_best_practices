@@ -11,7 +11,7 @@
               "name": "data to avoid overfitting",
               "id": 300,
               "level": 3,
-              "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
+              "description": "transform data (e.g., normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             }
           ],
