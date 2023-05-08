@@ -47,7 +47,7 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <Typography variant="h5">Taxonomy of the ML best practices </Typography>
           <br/>
           <br/>
-          <ImageContainer>
+          <ImageContainer onClick={() => setOpenTax(true)}>
             <Image src={taxImage} alt="Taxonomy image"/>
             <br/>
             <Typography variant="caption" align="justify">Taxonomy of machine learning best practices, preview</Typography>
@@ -157,6 +157,7 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <Typography variant="body1" align="justify"> <b>Taging process:</b> In th following <a href="https://github.com/TheSoftwareDesignLab/ML_best_practices/tree/main/tagging">link</a>, you will find the information related to the labels assigned to each post per each tagger. </Typography>
+          <Typography variant="body1" align="justify"> <b>Dataset:</b> In th following Zenodo <a href="https://zenodo.org/record/7908722#.ZFkxOS8RqJ8">link</a>, you will find the original posts (i.e., questions and answers) used in this study.</Typography>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </Container>
