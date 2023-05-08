@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ML_best_practices/static/css/main.ad8f019b.css",
-    "main.js": "/ML_best_practices/static/js/main.012f39d7.js",
+    "main.js": "/ML_best_practices/static/js/main.83793b68.js",
     "static/js/787.d939c1e5.chunk.js": "/ML_best_practices/static/js/787.d939c1e5.chunk.js",
     "static/media/taxImage.png": "/ML_best_practices/static/media/taxImage.8875c0fa54a9ccde0070.png",
     "index.html": "/ML_best_practices/index.html",
     "main.ad8f019b.css.map": "/ML_best_practices/static/css/main.ad8f019b.css.map",
-    "main.012f39d7.js.map": "/ML_best_practices/static/js/main.012f39d7.js.map",
+    "main.83793b68.js.map": "/ML_best_practices/static/js/main.83793b68.js.map",
     "787.d939c1e5.chunk.js.map": "/ML_best_practices/static/js/787.d939c1e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ad8f019b.css",
-    "static/js/main.012f39d7.js"
+    "static/js/main.83793b68.js"
   ]
 }
