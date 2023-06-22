@@ -157,7 +157,8 @@ export const MainPage: React.FC<Props> = ({data}) => {
           <br/>
           <br/>
           <Typography variant="body1" align="justify"> <b>Taging process:</b> In th following <a href="https://github.com/TheSoftwareDesignLab/ML_best_practices/tree/main/tagging">link</a>, you will find the information related to the labels assigned to each post per each tagger. </Typography>
-          <Typography variant="body1" align="justify"> <b>Dataset:</b> In th following Zenodo <a href="https://zenodo.org/record/7908722#.ZFkxOS8RqJ8">link</a>, you will find the original posts (i.e., questions and answers) used in this study.</Typography>
+          <Typography variant="body1" align="justify"> <b>Dataset:</b> In th following Zenodo <a href="https://zenodo.org/record/8058979">link</a>, you will find the original posts (i.e., questions and answers) used in this study.</Typography>
+          <Typography variant="body1" align="justify"> <b>Code:</b> In th following <a href="https://github.com/TheSoftwareDesignLab/ML_best_practices/tree/main/used_code">link</a>, you will find the code used to extract the tagged and analyzed Stack Exchange posts.</Typography>
         </>
         : <TaxPage data={data} onBackClick={() => setOpenTax(false)}/>}
     </Container>
